@@ -1,0 +1,42 @@
+@import './tableVariables.less';
+@import '~chameleon/less/variables';
+
+@paddingLeftForCellWithExpandButton: calc(@expandButtonWidth + @cellPadding);
+
+.expandable-table-row-trigger {
+  &.expandable-table-row-trigger--expanded {
+    td {
+      background-color: @emptyTableContainerBackground;
+    }
+  }
+
+  .table-cell-with-expand-btn {
+    position: relative;
+    padding-left: @paddingLeftForCellWithExpandButton;
+
+    .expand-content-wrap {
+      padding-left: @paddingLeftForCellWithExpandButton;
+    }
+  }
+
+  .expand-btn {
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid @tableBorderColor;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: @expandButtonWidth;
+    z-index: 2;
+  }
+}
+
+.table-row-with-expand-content__clickable {
+  cursor: pointer;
+
+  &:hover > td {
+    background-color: @table-bg-hover;
+  }
+}

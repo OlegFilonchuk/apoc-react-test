@@ -1,0 +1,24 @@
+@remove-cross-color: #979797;
+@remove-cross-color-hover: #2695dd;
+
+.list-item {
+  position: relative;
+
+  .remove-button {
+    &:after {
+      content: '\2716';
+      width: 20px;
+      height: 20px;
+
+      color: @remove-cross-color;
+      font-size: 14px;
+    }
+
+    &:hover {
+      &:after {
+        color: @remove-cross-color-hover;
+        cursor: pointer;
+      }
+    }
+  }
+}

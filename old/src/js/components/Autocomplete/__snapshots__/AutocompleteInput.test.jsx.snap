@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AutocompleteInput /> should render AutocompletInput component 1`] = `
+<AutocompleteInput
+  disabled={false}
+  hasError={false}
+  isExpanded={false}
+  lettersLeftCount={null}
+  maxLength={null}
+  onChange={[Function]}
+  onClick={[Function]}
+  placeholder=""
+  showAllOptions={[Function]}
+  showFilteredOptions={[Function]}
+  value=""
+>
+  <div
+    className="autocomplete-input input-wrapper"
+  >
+    <div
+      className="autocomplete-input__wrapper"
+    >
+      <Input
+        className=""
+        disabled={false}
+        hasError={false}
+        lettersLeftCount={null}
+        maxLength={null}
+        onChange={[Function]}
+        onClick={[Function]}
+        onInputRef={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        submitOnEnter={false}
+        suffix=""
+        type="text"
+        value=""
+      >
+        <span
+          className="input-field-wrapper"
+        >
+          <input
+            className="sc-form-ele input-field with-characters-limit-input"
+            disabled={false}
+            maxLength={null}
+            onChange={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <div
+            className="input-field__char-limit-counter"
+          >
+            <div
+              className="input-field__char-limit-counter__text"
+            />
+          </div>
+        </span>
+      </Input>
+    </div>
+    <button
+      className="autocomplete-input__button"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-icon-down-arrow"
+      />
+    </button>
+  </div>
+</AutocompleteInput>
+`;
+
+exports[`<AutocompleteInput /> should render disabled autocomplete input component 1`] = `
+<AutocompleteInput
+  disabled={true}
+  hasError={false}
+  isExpanded={false}
+  lettersLeftCount={null}
+  maxLength={null}
+  onChange={[Function]}
+  onClick={[Function]}
+  placeholder=""
+  showAllOptions={[Function]}
+  showFilteredOptions={[Function]}
+  value=""
+>
+  <div
+    className="disabled autocomplete-input input-wrapper"
+  >
+    <div
+      className="autocomplete-input__wrapper"
+    >
+      <Input
+        className=""
+        disabled={true}
+        hasError={false}
+        lettersLeftCount={null}
+        maxLength={null}
+        onChange={[Function]}
+        onClick={[Function]}
+        onInputRef={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        submitOnEnter={false}
+        suffix=""
+        type="text"
+        value=""
+      >
+        <span
+          className="input-field-wrapper"
+        >
+          <input
+            className="sc-form-ele input-field with-characters-limit-input"
+            disabled={true}
+            maxLength={null}
+            onChange={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <div
+            className="input-field__char-limit-counter"
+          >
+            <div
+              className="input-field__char-limit-counter__text"
+            />
+          </div>
+        </span>
+      </Input>
+    </div>
+    <button
+      className="autocomplete-input__button"
+      onClick={[Function]}
+    >
+      <span
+        className="sc-icon-down-arrow"
+      />
+    </button>
+  </div>
+</AutocompleteInput>
+`;

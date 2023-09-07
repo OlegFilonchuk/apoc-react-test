@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableBodyWithExpandRows /> should match snapshot when row  is expanded 1`] = `
+<tbody
+  className="table-body-with-expand-content"
+>
+  <TableRowWithExpandContent
+    className="expandable-table-row-trigger expandable-table-row-trigger--expanded"
+    customWrapper={null}
+    expandContent="Hello world"
+    expandOnClick={false}
+    id="id-1"
+    isExpanded={true}
+    key=".0/.0"
+    onClick={null}
+    onExpand={[Function]}
+  >
+    <td>
+      Content
+    </td>
+  </TableRowWithExpandContent>
+  <tr
+    className="expandable-table-row-content"
+    key=".0/.1"
+  >
+    <td
+      colSpan={1}
+    >
+      Hello world
+    </td>
+  </tr>
+  <TableRowWithExpandContent
+    className="expandable-table-row-trigger"
+    customWrapper={null}
+    expandContent="Hello world"
+    expandOnClick={false}
+    id="id-2"
+    isExpanded={false}
+    key=".1/.0"
+    onClick={null}
+    onExpand={[Function]}
+  >
+    <td>
+      Content
+    </td>
+  </TableRowWithExpandContent>
+</tbody>
+`;
+
+exports[`<TableBodyWithExpandRows /> should match snapshot when row  is not expanded 1`] = `
+<tbody
+  className="table-body-with-expand-content"
+>
+  <TableRowWithExpandContent
+    className="expandable-table-row-trigger"
+    customWrapper={null}
+    expandContent="Hello world"
+    expandOnClick={false}
+    id="id-1"
+    isExpanded={false}
+    key=".0/.0"
+    onClick={null}
+    onExpand={[Function]}
+  >
+    <td>
+      Content
+    </td>
+  </TableRowWithExpandContent>
+  <TableRowWithExpandContent
+    className="expandable-table-row-trigger"
+    customWrapper={null}
+    expandContent="Hello world"
+    expandOnClick={false}
+    id="id-2"
+    isExpanded={false}
+    key=".1/.0"
+    onClick={null}
+    onExpand={[Function]}
+  >
+    <td>
+      Content
+    </td>
+  </TableRowWithExpandContent>
+</tbody>
+`;
+
+exports[`<TableBodyWithExpandRows /> when children is not a standard td and false values matches snapshot 1`] = `
+<TableBodyWithExpandRows
+  allowMultipleExpanded={false}
+  className=""
+  customColspan={null}
+  customWrapper={null}
+  defaultExpandedRowId="test"
+  expandOnClick={false}
+  expandedChildren={Array []}
+  expandedRowId=""
+  isControlled={false}
+  onExpand={[Function]}
+>
+  <tbody
+    className="table-body-with-expand-content"
+  >
+    <TableRowWithExpandContent
+      className="expandable-table-row-trigger expandable-table-row-trigger--expanded"
+      customWrapper={null}
+      expandContent="Hello world"
+      expandOnClick={false}
+      id="test"
+      isExpanded={true}
+      key=".0/.0"
+      onClick={null}
+      onExpand={[Function]}
+    >
+      <tr
+        className="expandable-table-row-trigger expandable-table-row-trigger--expanded"
+        onClickCapture={[Function]}
+      >
+        <CustomTD
+          className="table-cell-with-expand-btn"
+          key=".0"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+        <CustomTD
+          key=".$.$.1"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+        <CustomTD
+          key=".$.$.3"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+      </tr>
+    </TableRowWithExpandContent>
+    <tr
+      className="expandable-table-row-content"
+      key=".0/.1"
+    >
+      <td
+        colSpan={3}
+      >
+        Hello world
+      </td>
+    </tr>
+  </tbody>
+</TableBodyWithExpandRows>
+`;
+
+exports[`<TableBodyWithExpandRows /> when children is not a standard td matches snapshot 1`] = `
+<TableBodyWithExpandRows
+  allowMultipleExpanded={false}
+  className=""
+  customColspan={null}
+  customWrapper={null}
+  defaultExpandedRowId="test"
+  expandOnClick={false}
+  expandedChildren={Array []}
+  expandedRowId=""
+  isControlled={false}
+  onExpand={[Function]}
+>
+  <tbody
+    className="table-body-with-expand-content"
+  >
+    <TableRowWithExpandContent
+      className="expandable-table-row-trigger expandable-table-row-trigger--expanded"
+      customWrapper={null}
+      expandContent="Hello world"
+      expandOnClick={false}
+      id="test"
+      isExpanded={true}
+      key=".0/.0"
+      onClick={null}
+      onExpand={[Function]}
+    >
+      <tr
+        className="expandable-table-row-trigger expandable-table-row-trigger--expanded"
+        onClickCapture={[Function]}
+      >
+        <CustomTD
+          className="table-cell-with-expand-btn"
+          key=".0"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+        <CustomTD
+          key=".$.$.1"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+        <CustomTD
+          key=".$.$.2"
+        >
+          <td>
+            I am a Custom TD
+          </td>
+        </CustomTD>
+      </tr>
+    </TableRowWithExpandContent>
+    <tr
+      className="expandable-table-row-content"
+      key=".0/.1"
+    >
+      <td
+        colSpan={3}
+      >
+        Hello world
+      </td>
+    </tr>
+  </tbody>
+</TableBodyWithExpandRows>
+`;

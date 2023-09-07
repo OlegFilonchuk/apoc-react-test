@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withCharactersLimit HoC render component should render div with characters limit 1`] = `
+<BaseComponentWithCharactersLimit
+  maxLength={10}
+  value="test"
+>
+  <div
+    className="characters-limit"
+  >
+    <BaseComponent
+      className="undefined with-characters-limit-input"
+      maxLength={10}
+      onChange={[Function]}
+      value="test"
+    >
+      <input
+        className="undefined with-characters-limit-input"
+        maxLength={10}
+        onChange={[Function]}
+        value="test"
+      />
+    </BaseComponent>
+    <div
+      className="input-field__char-limit-counter"
+    >
+      <div
+        className="input-field__char-limit-counter__text"
+      >
+        6
+      </div>
+    </div>
+  </div>
+</BaseComponentWithCharactersLimit>
+`;

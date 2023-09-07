@@ -1,0 +1,100 @@
+.centerVH() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+}
+
+.play-button {
+  @buttonOuterSize: 77px;
+  @borderColor: #d0d0d0;
+  @backgroundColor: #e5e5e5;
+
+  position: relative;
+  border: 1px solid @borderColor;
+  width: @buttonOuterSize;
+  height: @buttonOuterSize;
+  background-color: #e2e2e2;
+  border-radius: (@buttonOuterSize / 2);
+
+  &.play-button--not-standalone {
+    border-bottom-right-radius: 0;
+  }
+
+  button {
+    @buttonInnerSize: 56px;
+
+    outline: none;
+
+    width: @buttonInnerSize;
+    height: @buttonInnerSize;
+    border-radius: (@buttonInnerSize / 2);
+    background: linear-gradient(170deg, #fbfbfb, #eae8e7);
+    box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 1px solid @borderColor;
+
+    .centerVH();
+
+    &.play-button__icon {
+      @greenTriangleDefault: #69d512;
+      @greenTriangleHovered: #47b300;
+
+      @graySquareDefault: #333333;
+      @graySquareHovered: #111111;
+
+      @grayDisabledButton: #d4d4d4;
+
+      color: @greenTriangleDefault;
+      font-size: 20px;
+      margin-top: -1px;
+
+      .centerVH();
+
+      &:hover {
+        color: @greenTriangleHovered;
+      }
+
+      & > .sc-icon-right-arrow {
+        margin-left: 5px;
+      }
+
+      & > .sc-icon-solid-square {
+        color: @graySquareDefault;
+
+        &:hover {
+          color: @graySquareHovered;
+        }
+      }
+
+      & > .sc-icon-solid-square,
+      & > .sc-icon-replay {
+        margin-left: 1px;
+      }
+
+      &[disabled] {
+        cursor: default;
+      }
+
+      &[disabled] > .sc-icon-right-arrow,
+      &[disabled] > .sc-icon-solid-square,
+      &[disabled] > .sc-icon-replay {
+        color: @grayDisabledButton;
+        cursor: default;
+
+        &:hover {
+          color: @grayDisabledButton;
+        }
+      }
+    }
+
+    &:enabled:active {
+      background: linear-gradient(190deg, #fbfbfb, #eae8e7);
+      box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.4);
+
+      i {
+        margin-top: 3px;
+      }
+    }
+  }
+}

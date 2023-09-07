@@ -1,0 +1,40 @@
+@import '~chameleon/less/variables.less';
+@import './tableVariables.less';
+
+.table-component {
+  td,
+  th {
+    overflow-wrap: break-word;
+  }
+
+  th {
+    &.sc-left-align {
+      text-align: left;
+    }
+
+    &.sc-right-align {
+      text-align: right;
+    }
+
+    &.sc-center-align {
+      text-align: center;
+    }
+  }
+
+  .empty-table-container td {
+    background-color: @emptyTableContainerBackground;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.table-component-with-striped-rows {
+  &__row {
+    &--odd > td {
+      background-color: @table-bg-accent;
+    }
+    &--even > td {
+      background-color: @white-color;
+    }
+  }
+}

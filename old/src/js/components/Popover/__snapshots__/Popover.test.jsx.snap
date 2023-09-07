@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popover /> default bevahior should have default title and placement = LEFT_TOP 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Some content for popover
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default placement and React.Element as a title should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    <Button />
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default placement and simple text should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Simple Text Title
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="bottomLeft" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-bl qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="bottomMiddle" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-bm qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="bottomRight" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-br qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="leftMiddle" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lm qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="leftTop" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="rightMiddle" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-rm qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="rightTop" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-rt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="topLeft" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-tl qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="topMiddle" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-tm qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> rendering with default title and placement="topRight" should match snapshot 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-tr qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        >
+          Simple Popover Text Content
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> when \`popoverStyles\` property is specified should apply custom styles 1`] = `
+<div
+  className="tooltip-container "
+  onClick={[Function]}
+>
+  <div
+    className="popover-title"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+  >
+    Hover to see a tooltip
+  </div>
+  <div
+    className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+    onMouseLeave={[Function]}
+    onMouseOver={[Function]}
+    style={
+      Object {
+        "border": "1px solid blue",
+        "color": "green",
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="qtip-content"
+      onClick={[Function]}
+    >
+      <div
+        className="visible"
+      >
+        <header />
+        <div
+          className="tooltip-body"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

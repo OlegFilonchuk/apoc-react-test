@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultilineEllipsisPopover /> when is ellipsed matches snapshot 1`] = `
+<MultilineEllipsisPopover
+  hideAfterDelayOf={0}
+  maxLines={3}
+  placement="topLeft"
+  popoverMaxWidth={undefined}
+>
+  <Component
+    maxLines={3}
+  >
+    <DynamicPopover
+      className="multiline-ellipsis-popover"
+      hideAfterDelayOf={0}
+      initialPlacement="topLeft"
+      key="not-truncated"
+      maxWidth={undefined}
+      onVisibilityChange={[Function]}
+      openTrigger="mouseOver"
+      popoverStyles={Object {}}
+      title={
+        <div>
+          xxx
+        </div>
+      }
+    >
+      <Popover
+        className="multiline-ellipsis-popover"
+        followCursorPosition={false}
+        header={null}
+        hideAfterDelayOf={0}
+        hideArrow={false}
+        hidePopup={false}
+        isAllowed={true}
+        isClosable={false}
+        isDisabled={false}
+        isVisible={undefined}
+        onClose={[Function]}
+        onOutsidePopoverClick={[Function]}
+        onPopoverClick={[Function]}
+        onVisibilityChange={[Function]}
+        openTrigger="mouseOver"
+        placement="topLeft"
+        popoverStyles={
+          Object {
+            "maxWidth": undefined,
+            "width": undefined,
+          }
+        }
+        removeChildrenFromDOMWhenHidden={false}
+        showAfterDelayOf={0}
+        title={
+          <div>
+            xxx
+          </div>
+        }
+        tooltipClassName=""
+        type="default"
+      >
+        <div
+          className="tooltip-container multiline-ellipsis-popover"
+          onClick={[Function]}
+          style={undefined}
+        >
+          <div
+            className="popover-title"
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+          >
+            <div>
+              xxx
+            </div>
+          </div>
+          <div
+            className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-tl qtip-focus"
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "display": "none",
+                "maxWidth": undefined,
+                "width": undefined,
+              }
+            }
+          >
+            <div
+              className="qtip-content"
+              onClick={[Function]}
+            >
+              <div
+                className="visible"
+              >
+                <header />
+                <div
+                  className="tooltip-body"
+                >
+                  xxx
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Popover>
+    </DynamicPopover>
+  </Component>
+</MultilineEllipsisPopover>
+`;
+
+exports[`<MultilineEllipsisPopover /> when not ellipsed with no extra props matches snapshot 1`] = `
+<MultilineEllipsisPopover
+  hideAfterDelayOf={0}
+  maxLines={3}
+  placement="topLeft"
+  popoverMaxWidth={undefined}
+>
+  <Component
+    maxLines={3}
+  >
+    <div
+      key="truncated"
+    >
+      xxx
+    </div>
+  </Component>
+</MultilineEllipsisPopover>
+`;

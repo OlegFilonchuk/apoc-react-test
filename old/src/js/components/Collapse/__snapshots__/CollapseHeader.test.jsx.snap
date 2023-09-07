@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollapseHeader> should render collapsed component with Foo title 1`] = `
+<CollapseHeader
+  className=""
+  countSelectedItems={null}
+  data-test-element="collapseHeaderDataTestElement"
+  displayCounter={false}
+  iconPosition="left"
+  iconStyles={
+    Object {
+      "collapsed": "bar-collapsed-class-name",
+      "expanded": "foo-expanded-class-name",
+    }
+  }
+  isClickDisabled={false}
+  isCollapsed={true}
+  isPanelButton={false}
+  onClick={[Function]}
+  title="Foo Panel Title"
+>
+  <div
+    className="sc-panel-heading"
+    data-test-element="collapseHeaderDataTestElement"
+    onClick={null}
+    role={null}
+  >
+    <div
+      className="sc-panel-title"
+    >
+      <span
+        className="sc-collapse-icon sc-fonticon bar-collapsed-class-name"
+        onClick={[Function]}
+      />
+      <h3>
+        Foo Panel Title
+      </h3>
+    </div>
+  </div>
+</CollapseHeader>
+`;
+
+exports[`<CollapseHeader> should render expanded component with Bar title 1`] = `
+<CollapseHeader
+  className=""
+  countSelectedItems={null}
+  data-test-element="collapseHeaderDataTestElement"
+  displayCounter={false}
+  iconPosition="left"
+  iconStyles={
+    Object {
+      "collapsed": "bar-collapsed-class-name",
+      "expanded": "foo-expanded-class-name",
+    }
+  }
+  isClickDisabled={false}
+  isCollapsed={false}
+  isPanelButton={false}
+  onClick={[Function]}
+  title="Bar Panel Title"
+>
+  <div
+    className="sc-panel-heading"
+    data-test-element="collapseHeaderDataTestElement"
+    onClick={null}
+    role={null}
+  >
+    <div
+      className="sc-panel-title"
+    >
+      <span
+        className="sc-collapse-icon sc-fonticon foo-expanded-class-name"
+        onClick={[Function]}
+      />
+      <h3>
+        Bar Panel Title
+      </h3>
+    </div>
+  </div>
+</CollapseHeader>
+`;
+
+exports[`<CollapseHeader> should render icon on left 1`] = `
+<CollapseHeader
+  className=""
+  countSelectedItems={null}
+  data-test-element="collapseHeaderDataTestElement"
+  displayCounter={false}
+  iconPosition="left"
+  iconStyles={
+    Object {
+      "collapsed": "bar-collapsed-class-name",
+      "expanded": "foo-expanded-class-name",
+    }
+  }
+  isClickDisabled={false}
+  isCollapsed={true}
+  isPanelButton={false}
+  onClick={[Function]}
+  title="Foo Bar Panel"
+>
+  <div
+    className="sc-panel-heading"
+    data-test-element="collapseHeaderDataTestElement"
+    onClick={null}
+    role={null}
+  >
+    <div
+      className="sc-panel-title"
+    >
+      <span
+        className="sc-collapse-icon sc-fonticon bar-collapsed-class-name"
+        onClick={[Function]}
+      />
+      <h3>
+        Foo Bar Panel
+      </h3>
+    </div>
+  </div>
+</CollapseHeader>
+`;
+
+exports[`<CollapseHeader> should render icon on right 1`] = `
+<CollapseHeader
+  className=""
+  countSelectedItems={null}
+  data-test-element="collapseHeaderDataTestElement"
+  displayCounter={false}
+  iconPosition="right"
+  iconStyles={
+    Object {
+      "collapsed": "bar-collapsed-class-name",
+      "expanded": "foo-expanded-class-name",
+    }
+  }
+  isClickDisabled={false}
+  isCollapsed={true}
+  isPanelButton={false}
+  onClick={[Function]}
+  title="Foo Bar Panel"
+>
+  <div
+    className="sc-panel-heading"
+    data-test-element="collapseHeaderDataTestElement"
+    onClick={null}
+    role={null}
+  >
+    <div
+      className="sc-panel-title"
+    >
+      <h3>
+        Foo Bar Panel
+      </h3>
+    </div>
+    <div
+      className="sc-panel-utils"
+    >
+      <span
+        className="sc-collapse-icon sc-fonticon bar-collapsed-class-name"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</CollapseHeader>
+`;

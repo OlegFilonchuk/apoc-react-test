@@ -1,0 +1,52 @@
+@import '~chameleon/less/variables.less';
+
+@stageColor: darken(@primary, 10%);
+@stageInactiveColor: fadeout(greyscale(@stageColor), 50%);
+
+.progress-status-stage {
+  &__wrapper {
+    flex: 1;
+    counter-increment: stage-counter;
+  }
+
+  &__container {
+    width: 7em;
+    height: 7em;
+    margin: 0 auto;
+    padding: 0.25em 0.5em;
+    border: 2px solid @stageInactiveColor;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+    color: @stageInactiveColor;
+
+    .sc-icon-check {
+      opacity: 0;
+      flex: 1;
+    }
+
+    &-title {
+      display: block;
+      flex: 2;
+      overflow: hidden;
+
+      &::before {
+        content: counter(stage-counter);
+        display: block;
+        flex: 1;
+      }
+    }
+
+    &--inprogress,
+    &--finished {
+      border: 2px solid @stageColor;
+      color: @stageColor;
+    }
+
+    &--finished .sc-icon-check {
+      opacity: 1;
+    }
+  }
+}

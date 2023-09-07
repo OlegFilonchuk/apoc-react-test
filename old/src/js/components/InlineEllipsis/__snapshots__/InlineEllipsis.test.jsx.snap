@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InlineEllipsis with default set of props matches snapshot 1`] = `
+<InlineEllipsis
+  className=""
+  width="auto"
+>
+  <div
+    className="inline-ellipsis"
+    style={
+      Object {
+        "width": "auto",
+      }
+    }
+  >
+    Hello world
+  </div>
+</InlineEllipsis>
+`;

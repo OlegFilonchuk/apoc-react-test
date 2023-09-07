@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterList /> should render <FilterList /> 1`] = `
+<FilterList
+  className=""
+  onChange={[Function]}
+  onClearAll={[Function]}
+  onFilterRemove={[Function]}
+  options={
+    Array [
+      Object {
+        "name": "Business Systems",
+        "value": "value1",
+      },
+      Object {
+        "name": "iPhone",
+        "value": "value2",
+      },
+      Object {
+        "name": "Imported Scenarios",
+        "value": "value3",
+      },
+      Object {
+        "name": "Social Networking",
+        "value": "value4",
+      },
+    ]
+  }
+>
+  <ul
+    className="filterlist"
+  >
+    <li
+      className="filterlist__option"
+      key="Business Systems"
+    >
+      <span>
+        Business Systems
+      </span>
+      <button
+        className="filterlist__option-remove sc-icon-filled-circle-close sc-txt-primary"
+        onClick={[Function]}
+      />
+    </li>
+    <li
+      className="filterlist__option"
+      key="iPhone"
+    >
+      <span>
+        iPhone
+      </span>
+      <button
+        className="filterlist__option-remove sc-icon-filled-circle-close sc-txt-primary"
+        onClick={[Function]}
+      />
+    </li>
+    <li
+      className="filterlist__option"
+      key="Imported Scenarios"
+    >
+      <span>
+        Imported Scenarios
+      </span>
+      <button
+        className="filterlist__option-remove sc-icon-filled-circle-close sc-txt-primary"
+        onClick={[Function]}
+      />
+    </li>
+    <li
+      className="filterlist__option"
+      key="Social Networking"
+    >
+      <span>
+        Social Networking
+      </span>
+      <button
+        className="filterlist__option-remove sc-icon-filled-circle-close sc-txt-primary"
+        onClick={[Function]}
+      />
+    </li>
+    <li
+      className="filterlist__remove-all"
+    >
+      <button
+        className="sc-txt-primary"
+        onClick={[Function]}
+      >
+        Clear All
+      </button>
+    </li>
+  </ul>
+</FilterList>
+`;

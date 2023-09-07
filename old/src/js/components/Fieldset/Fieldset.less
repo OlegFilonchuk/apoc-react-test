@@ -1,0 +1,40 @@
+.fieldset {
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  & &:not(.no-border) {
+    background-color: #ebebeb;
+    border: 1px solid #a5a4a4;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-bottom-width: 0;
+
+    + .fieldset {
+      margin-top: 0;
+      border-top-width: 0;
+    }
+
+    &:last-child {
+      border-bottom-width: 1px;
+    }
+  }
+
+  .sc-label {
+    width: 100%;
+  }
+
+  input,
+  .input-field-wrapper {
+    width: 100%;
+  }
+
+  @-moz-document url-prefix() {
+    input[type='date'] {
+      line-height: normal;
+    }
+  }
+}

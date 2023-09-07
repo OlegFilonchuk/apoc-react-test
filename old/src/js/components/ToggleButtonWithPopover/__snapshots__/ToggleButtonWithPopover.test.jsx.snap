@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleButtonWithPopover /> should render component 1`] = `
+<ToggleButtonWithPopover
+  placeholder="What's up?"
+  tooltip="Foo Bar tip"
+>
+  <ToggleButtonWithPopover
+    placeholder="What's up?"
+    tooltip="Foo Bar tip"
+  >
+    <Popover
+      className=""
+      followCursorPosition={false}
+      header={null}
+      hideAfterDelayOf={500}
+      hideArrow={false}
+      hidePopup={false}
+      isAllowed={true}
+      isClosable={false}
+      isDisabled={false}
+      onClose={[Function]}
+      onOutsidePopoverClick={[Function]}
+      onPopoverClick={[Function]}
+      onVisibilityChange={[Function]}
+      openTrigger="mouseOver"
+      placeholder="What's up?"
+      placement="leftTop"
+      popoverStyles={null}
+      removeChildrenFromDOMWhenHidden={false}
+      showAfterDelayOf={500}
+      title={
+        <ToggleButton
+          buttonType="button"
+          className={null}
+          errorMessage={null}
+          isDisabled={false}
+          isLightTheme={false}
+          isOn={true}
+          labelOff="off"
+          labelOn="on"
+          onSwitch={[Function]}
+          placeholder="What's up?"
+          toggleId={null}
+          toggleSize="lg"
+        />
+      }
+      tooltipClassName=""
+      type="default"
+    >
+      <div
+        className="tooltip-container "
+        onClick={[Function]}
+      >
+        <div
+          className="popover-title"
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+        >
+          <ToggleButton
+            buttonType="button"
+            className={null}
+            errorMessage={null}
+            isDisabled={false}
+            isLightTheme={false}
+            isOn={true}
+            labelOff="off"
+            labelOn="on"
+            onSwitch={[Function]}
+            placeholder="What's up?"
+            toggleId={null}
+            toggleSize="lg"
+          >
+            <div
+              className="toggle-button lg is-on"
+              id={null}
+              onClick={[Function]}
+            >
+              <div
+                className="items-tumbler on"
+              >
+                <div
+                  className="label"
+                  title="on"
+                >
+                  on
+                </div>
+                <button
+                  className="big-toggle__inner-circle"
+                  type="button"
+                />
+                <div
+                  className="label"
+                  title="off"
+                >
+                  off
+                </div>
+              </div>
+            </div>
+          </ToggleButton>
+        </div>
+        <div
+          className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <div
+            className="qtip-content"
+            onClick={[Function]}
+          >
+            <div
+              className="visible"
+            >
+              <header />
+              <div
+                className="tooltip-body"
+              >
+                Foo Bar tip
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Popover>
+  </ToggleButtonWithPopover>
+</ToggleButtonWithPopover>
+`;

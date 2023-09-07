@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFieldWithPopover /> should render component 1`] = `
+<InputFieldWithPopover
+  placeholder="What's up?"
+  tooltip="Foo Bar tip"
+>
+  <InputWithPopover
+    placeholder="What's up?"
+    tooltip="Foo Bar tip"
+  >
+    <Popover
+      className=""
+      followCursorPosition={false}
+      header={null}
+      hideAfterDelayOf={500}
+      hideArrow={false}
+      hidePopup={false}
+      isAllowed={true}
+      isClosable={false}
+      isDisabled={false}
+      onClose={[Function]}
+      onOutsidePopoverClick={[Function]}
+      onPopoverClick={[Function]}
+      onVisibilityChange={[Function]}
+      openTrigger="mouseOver"
+      placeholder="What's up?"
+      placement="leftTop"
+      popoverStyles={null}
+      removeChildrenFromDOMWhenHidden={false}
+      showAfterDelayOf={500}
+      title={
+        <Input
+          className=""
+          hasError={false}
+          lettersLeftCount={Infinity}
+          onInputRef={[Function]}
+          onKeyDown={[Function]}
+          placeholder="What's up?"
+          submitOnEnter={false}
+          suffix=""
+          type="text"
+        />
+      }
+      tooltipClassName=""
+      type="default"
+    >
+      <div
+        className="tooltip-container "
+        onClick={[Function]}
+      >
+        <div
+          className="popover-title"
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+        >
+          <Input
+            className=""
+            hasError={false}
+            lettersLeftCount={Infinity}
+            onInputRef={[Function]}
+            onKeyDown={[Function]}
+            placeholder="What's up?"
+            submitOnEnter={false}
+            suffix=""
+            type="text"
+          >
+            <input
+              className="sc-form-ele input-field"
+              onKeyDown={[Function]}
+              placeholder="What's up?"
+              type="text"
+            />
+          </Input>
+        </div>
+        <div
+          className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <div
+            className="qtip-content"
+            onClick={[Function]}
+          >
+            <div
+              className="visible"
+            >
+              <header />
+              <div
+                className="tooltip-body"
+              >
+                Foo Bar tip
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Popover>
+  </InputWithPopover>
+</InputFieldWithPopover>
+`;

@@ -1,0 +1,60 @@
+@border: #cccccc;
+@primary: #0290d7;
+@light-background: #efefef;
+@paragraph: #555555;
+
+.slider-label {
+  position: absolute;
+  left: 33px;
+
+  min-width: 60px;
+  border-radius: 0;
+  border: 1px solid @border;
+  padding: 6px 4px 4px;
+
+  color: @paragraph;
+  background: @light-background;
+
+  text-align: center;
+  font-size: 10px;
+
+  z-index: 30;
+
+  &__number {
+    color: @primary;
+  }
+
+  &:after,
+  &:before {
+    height: 0;
+    width: 0;
+    content: ' ';
+    position: absolute;
+  }
+
+  &:after {
+    border-top: 12px solid @light-background;
+    border-left: 12px solid transparent;
+    left: -12px;
+    top: 0;
+  }
+
+  &:before {
+    border-top: 13px solid @border;
+    border-left: 13px solid transparent;
+    left: -14px;
+    top: -1px;
+  }
+
+  .show-units {
+    display: flex;
+
+    input {
+      width: 60px;
+    }
+
+    span {
+      margin: 4px;
+    }
+  }
+}

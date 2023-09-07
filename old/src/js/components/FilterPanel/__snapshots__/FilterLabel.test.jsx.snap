@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterLabel /> should render correct html 1`] = `
+<div
+  className="label-item"
+>
+  <div
+    className="label-item__name"
+  >
+    testLabel
+  </div>
+</div>
+`;

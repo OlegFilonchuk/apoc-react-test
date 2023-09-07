@@ -1,0 +1,72 @@
+@import '~chameleon/less/variables.less';
+
+@disabled-text-color: #B2B2B2;
+
+.dropdown-button-container {
+  display: inline-block;
+}
+
+.dropdown-option-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.sc-dropdown.sc-dropdown--fullwidth {
+  margin-right: 10px;
+
+  .sc-dropdown-menus {
+    width: 100%;
+    left: 0;
+  }
+
+  .sc-btn.sc-btn-dropdown {
+    font-family: @font-semibold;
+
+    width: 100%;
+    position: relative;
+    text-align: left;
+    margin: 0;
+
+    .sc-icon-down-arrow {
+      left: auto;
+      right: 10px;
+      position: absolute;
+      top: 10px;
+    }
+  }
+}
+
+// DropdownOptionLink icon related styles
+.dropdown-option,
+.dropdown-option-link {
+  .with-icon {
+    padding-left: 5px;
+
+    .icon {
+      padding: 0 5px;
+    }
+  }
+}
+
+li.dropdown-option-link.disabled a {
+  color: @disabled-text-color;
+  cursor: not-allowed;
+}
+
+.dropdown-filter {
+  position: relative;
+  padding: (@padding-sm-vertical) (@padding-sm-horizontal * 2);
+
+  &__input {
+    width: 100%;
+    padding-right: (@padding-base-horizontal * 3);
+  }
+
+  .dropdown-filter__icon {
+    position: absolute;
+    top: @padding-sm-vertical;
+    right: (@padding-sm-horizontal * 3);
+    font-size: @font-size-xl;
+    color: @primary;
+  }
+}

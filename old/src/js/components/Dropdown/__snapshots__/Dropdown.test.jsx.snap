@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown> when closed button click should opens it 1`] = `
+<div
+  className="sc-dropdown sc-open"
+>
+  <button
+    isExpanded={true}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Label
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="asdad"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> when open button should close it 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Label
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="asdasd"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOption> should be rendered properly 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Label
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="some value"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOption> should change selected option to first one when children are updated none of them are selected 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Option 0
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$0"
+      label="Option 0"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="0"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$1"
+      label="Option 1"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="1"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$2"
+      label="Option 2"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="2"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOption> should change selected option when children are updated 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Option 2
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$0"
+      label="Option 0"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="0"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$1"
+      label="Option 1"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="1"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".$2"
+      label="Option 2"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="2"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOption> should render by default first option as selected 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Label
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="asdas"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".1"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="sadasd"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".2"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="xcvxcv"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOption> should render third option as selected 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Label
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="asdas"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".1"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={false}
+      showPopupOnHover={false}
+      value="zxcvc"
+    />
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".2"
+      label="Label"
+      name="name"
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="asdasd"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with <DropdownOptionLink> should be rendered properly 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  />
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOptionLink
+      className=""
+      disabled={false}
+      href="afalsis"
+      icon=""
+      key=".0"
+      label="Eheu, domina!"
+      onClick={[Function]}
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with text inside button prop should render pre-selected option label nevertheless 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Eheu, domina!
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Eheu, domina!"
+      name=""
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="afalsis"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with text inside button prop should render text if no <DropdownOption> is pre-selected 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Hi, I'm button's text
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Eheu, domina!"
+      name=""
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="afalsis"
+    />
+  </ul>
+</div>
+`;
+
+exports[`<Dropdown> with withSuffix prop should add suffix and proper suffix wrapper classname 1`] = `
+<div
+  className="sc-dropdown"
+>
+  <button
+    isExpanded={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    Hi, I'm button's text
+  </button>
+  <ul
+    className="sc-dropdown-menus"
+  >
+    <DropdownOption
+      className=""
+      disabled={false}
+      icon=""
+      key=".0"
+      label="Eheu, domina!"
+      name=""
+      onClick={[Function]}
+      selected={true}
+      showPopupOnHover={false}
+      value="afalsis"
+    />
+  </ul>
+  <div
+    className="some-class"
+  >
+    suf
+  </div>
+</div>
+`;
+
+exports[`<DropdownOption> prop isChecked when false it does not render sc-focus class 1`] = `
+<li
+  className="dropdown-option "
+>
+  <label
+    className=""
+  >
+    <span
+      className=" icon"
+    />
+    some label
+    <input
+      data-test-element="option-some value"
+      defaultChecked={false}
+      disabled={false}
+      name="some name"
+      onClick={[Function]}
+      readOnly="readOnly"
+      role="menu"
+      type="radio"
+      value="some value"
+    />
+  </label>
+</li>
+`;
+
+exports[`<DropdownOption> prop isChecked when true it renders sc-focus class 1`] = `
+<li
+  className="dropdown-option "
+>
+  <label
+    className="sc-focus"
+  >
+    <span
+      className=" icon"
+    />
+    some label
+    <input
+      data-test-element="option-some value"
+      defaultChecked={true}
+      disabled={false}
+      name="some name"
+      onClick={[Function]}
+      readOnly="readOnly"
+      role="menu"
+      type="radio"
+      value="some value"
+    />
+  </label>
+</li>
+`;
+
+exports[`<DropdownOptionLink> renders 1`] = `
+<li
+  className="dropdown-option-link"
+>
+  <a
+    className=""
+    disabled={true}
+    href="#"
+    onClick={[Function]}
+  >
+    <span
+      className=" icon"
+    />
+    some label
+  </a>
+</li>
+`;

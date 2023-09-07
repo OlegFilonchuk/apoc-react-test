@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPopover HoC render component should render Popover with <div> 1`] = `
+<divWithPopover
+  tooltip="Did you know that..."
+>
+  <Popover
+    className=""
+    followCursorPosition={false}
+    header={null}
+    hideAfterDelayOf={500}
+    hideArrow={false}
+    hidePopup={false}
+    isAllowed={true}
+    isClosable={false}
+    isDisabled={false}
+    onClose={[Function]}
+    onOutsidePopoverClick={[Function]}
+    onPopoverClick={[Function]}
+    onVisibilityChange={[Function]}
+    openTrigger="mouseOver"
+    placement="leftTop"
+    popoverStyles={null}
+    removeChildrenFromDOMWhenHidden={false}
+    showAfterDelayOf={500}
+    title={<div />}
+    tooltipClassName=""
+    type="default"
+  >
+    <div
+      className="tooltip-container "
+      onClick={[Function]}
+    >
+      <div
+        className="popover-title"
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+      >
+        <div>
+          <div />
+        </div>
+      </div>
+      <div
+        className="qtip qtip-chameleon qtip-chameleon-default qtip-shadow qtip-pos-lt qtip-focus"
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <div
+          className="qtip-content"
+          onClick={[Function]}
+        >
+          <div
+            className="visible"
+          >
+            <header />
+            <div
+              className="tooltip-body"
+            >
+              Did you know that...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Popover>
+</divWithPopover>
+`;

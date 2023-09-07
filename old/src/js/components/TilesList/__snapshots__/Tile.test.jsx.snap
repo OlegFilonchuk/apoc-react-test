@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tile /> when rendering should have correct html 1`] = `
+<div
+  className="tile__container"
+>
+  <div
+    className="tile"
+    onClick={[Function]}
+  >
+    <div
+      className="tile__main"
+    >
+      <div
+        className="tile__main__name"
+      >
+        Test title
+      </div>
+      <div
+        className="tile__main__amount"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="tile__footer"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Tile /> when rendering when there are no protocols specified footer should not have text 1`] = `
+<div
+  className="tile__container"
+>
+  <div
+    className="tile"
+    onClick={[Function]}
+  >
+    <div
+      className="tile__main"
+    >
+      <div
+        className="tile__main__name"
+      >
+        Test title
+      </div>
+      <div
+        className="tile__main__amount"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="tile__footer"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Tile /> when rendering when there is amount specified and no protocols specified should have amount block and no text in footer block 1`] = `
+<div
+  className="tile__container"
+>
+  <div
+    className="tile"
+    onClick={[Function]}
+  >
+    <div
+      className="tile__main"
+    >
+      <div
+        className="tile__main__name"
+      >
+        Test title
+      </div>
+      <div
+        className="tile__main__amount"
+      >
+        1
+      </div>
+    </div>
+    <div
+      className="tile__footer"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Tile /> when rendering when there is no amount specified should have no amount block 1`] = `
+<div
+  className="tile__container"
+>
+  <div
+    className="tile"
+    onClick={[Function]}
+  >
+    <div
+      className="tile__main"
+    >
+      <div
+        className="tile__main__name"
+      >
+        Test title
+      </div>
+      <div
+        className="tile__main__amount"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="tile__footer"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Tile /> when rendering when there is protocols list specified when there are more than 3 protocols should cut up to 3 protocols and show "..." at the end 1`] = `
+<div
+  className="tile__footer"
+/>
+`;
+
+exports[`<Tile /> when rendering when there is protocols list specified when there are up to 3 protocols in the list should not show "..." 1`] = `
+<div
+  className="tile__footer"
+/>
+`;

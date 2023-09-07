@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconButton /> to render a Button 1`] = `
+<Button
+  className="sc-btn-primary-outline icon-button--default icon-button"
+  data-test-element="testDataTestElement"
+  disabled={false}
+  id=""
+  isLinkView={false}
+  isSelected={false}
+  name=""
+  onClick={[Function]}
+  title=""
+  type="button"
+  value={null}
+>
+  <button
+    className="sc-btn sc-btn-primary-outline icon-button--default icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    <span
+      className="sc-icon-check"
+    />
+  </button>
+</Button>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Edit /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--edit icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--edit icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-pencil"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Error /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-error-outline icon-button--no-border icon-button--error icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-error-outline icon-button--no-border icon-button--error icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-circle-warning"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Filter /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--filter icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--filter icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-filter"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Flag /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--flag icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--flag icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-flag"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Info /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--no-border icon-button--info icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--no-border icon-button--info icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-info"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Next /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--next icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--next icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-next"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Plus /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--plus icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--plus icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-plus"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Prev /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--prev icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--prev icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-prev"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Reset /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--reset icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--reset icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-reset"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Undo /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--undo icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--undo icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-undo"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Upload /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--upload icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--upload icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-upload"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;
+
+exports[`<IconButton /> used with a preset should render <IconButton.Xmark /> component 1`] = `
+<IconButton
+  className=""
+  compact={false}
+  data-test-element="testDataTestElement"
+  disabled={false}
+  onClick={[Function]}
+>
+  <Button
+    className="sc-btn-primary-outline icon-button--xmark icon-button"
+    data-test-element="testDataTestElement"
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn sc-btn-primary-outline icon-button--xmark icon-button"
+      data-test-element="testDataTestElement"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <span
+        className="sc-icon-xmark"
+      />
+    </button>
+  </Button>
+</IconButton>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileInput /> should render FileInput component 1`] = `
+<FileInput
+  accept="*/*"
+  className="sc-btn-default"
+  disabled={false}
+  id=""
+  label="Browse"
+  multiple={false}
+  name=""
+  noFileLabel="No file chosen"
+  onChange={[Function]}
+  onClick={[Function]}
+  selectedFile={null}
+>
+  <div
+    className="fileInput__wrapper"
+    onClick={[Function]}
+  >
+    <Button
+      className="sc-btn sc-btn-primary-outline fileInput__button sc-btn-default"
+      data-test-element="undefinedButton"
+      disabled={false}
+      id=""
+      isLinkView={false}
+      isSelected={false}
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+      value={null}
+    >
+      <button
+        className="sc-btn sc-btn sc-btn-primary-outline fileInput__button sc-btn-default"
+        data-test-element="undefinedButton"
+        disabled={false}
+        id=""
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+      >
+        Browse
+      </button>
+    </Button>
+    <input
+      accept="*/*"
+      className="fileInput__fileInput"
+      data-test-element="undefinedInput"
+      disabled={false}
+      multiple={false}
+      name=""
+      onChange={[Function]}
+      type="file"
+    />
+    No file chosen
+  </div>
+</FileInput>
+`;

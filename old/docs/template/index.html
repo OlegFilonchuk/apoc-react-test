@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%=htmlWebpackPlugin.options.title%></title>
+  <link rel="stylesheet" href="chameleon/dist/css/chameleon.min.css">
+  <link rel="stylesheet" href="chameleon/dist/css/chameleon.qtip.css">
+  <style>
+    #app div[class^='preview'] {
+      overflow: initial;
+    }
+
+    #app div[class^='preview'] {
+      overflow: initial;
+    }
+
+    #app div[class^='content'] {
+      max-width: none;
+    }
+
+    #app div[class^='sidebar'] {
+      width: 300px;
+    }
+
+    #app div[class*=' hasSidebar'] {
+      padding-left: 300px;
+    }
+
+    #app div[class^='preview'] {
+      font-size: 13px;
+    }
+
+    #app div[class^='preview'] p {
+      margin: 10px 0;
+    }
+
+    #app td[class^='cell'] {
+      text-align: left;
+    }
+
+    #app tbody[class^='tableBody'] tr:last-child td[class^='cell'] {
+      border: 0;
+    }
+
+    #app code[class^='code'] {
+      padding: 2px 5px;
+      background-color: #f5f5f5;
+      font-size: 0.9em;
+    }
+
+    #app th[class^='th'],
+    #app td[class^='td'] {
+      color: inherit;
+      padding-left: 6px;
+      padding-bottom: 6px;
+      border: 0;
+    }
+  </style>
+</head>
+<body class="ApocReact">
+  <div id="app"></div>
+</body>
+</html>

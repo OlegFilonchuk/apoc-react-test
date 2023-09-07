@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContextMenu> when renders should render correct markup 1`] = `
+<ContextMenu
+  ButtonComponent={null}
+  className=""
+  closeOnOptionClick={false}
+  disabled={false}
+  menuZIndex={15501}
+  onButtonClick={[Function]}
+  onButtonMouseOver={[Function]}
+  onMenuMouseLeave={[Function]}
+  onMenuMouseOver={[Function]}
+  onMouseLeave={[Function]}
+  positionOptions={
+    Object {
+      "hAlign": "right",
+      "position": "bottom",
+      "vAlign": "bottom",
+    }
+  }
+  title=""
+>
+  <MenuButton
+    ButtonComponent={[Function]}
+    disabled={false}
+    menu={
+      <div
+        className="sc-dropdown context-menu"
+      >
+        <ul
+          className="sc-dropdown-menus sc-dropdown-menus--relative context-menu__items context-menu__items--closed"
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+        >
+          <MenuList>
+            <ContextOptionLink
+              className=""
+              href="#"
+              icon=""
+              isDisabled={false}
+              onClick={[Function]}
+              target="_self"
+            >
+              Edit
+            </ContextOptionLink>
+            <ContextOption
+              className=""
+              icon=""
+              isDisabled={false}
+              onClick={[Function]}
+            >
+              Rename
+            </ContextOption>
+            <ContextOption
+              className=""
+              icon=""
+              isDisabled={false}
+              onClick={[Function]}
+            >
+              Duplicate
+            </ContextOption>
+            <ContextOption
+              className=""
+              icon=""
+              isDisabled={false}
+              onClick={[Function]}
+            >
+              Delete
+            </ContextOption>
+          </MenuList>
+        </ul>
+      </div>
+    }
+    menuZIndex={15501}
+    onDidOpen={[Function]}
+    onWillClose={[Function]}
+    positionOptions={
+      Object {
+        "hAlign": "right",
+        "position": "bottom",
+        "vAlign": "bottom",
+      }
+    }
+  >
+    <FloatAnchor
+      anchor={
+        <Unknown
+          aria-expanded={false}
+          aria-haspopup={true}
+          className={undefined}
+          disabled={false}
+          onKeyPress={[Function]}
+          onMouseDown={[Function]}
+          style={undefined}
+          title={undefined}
+          type="button"
+        />
+      }
+      float={null}
+      options={
+        Object {
+          "hAlign": "right",
+          "position": "bottom",
+          "vAlign": "bottom",
+        }
+      }
+      zIndex={15501}
+    >
+      <Component
+        aria-expanded={false}
+        aria-haspopup={true}
+        className={undefined}
+        disabled={false}
+        onKeyPress={[Function]}
+        onMouseDown={[Function]}
+        style={undefined}
+        title={undefined}
+        type="button"
+      >
+        <ContextButton
+          aria-expanded={false}
+          aria-haspopup={true}
+          buttonType="button"
+          className=""
+          classNames=""
+          disabled={false}
+          domRef={[Function]}
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          style={undefined}
+          title=""
+          type="button"
+        >
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="context-menu__button"
+            disabled={false}
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={undefined}
+            title=""
+            type="button"
+          >
+            <span
+              className="sc-icon-hamburger-menu"
+            />
+          </button>
+        </ContextButton>
+      </Component>
+    </FloatAnchor>
+  </MenuButton>
+</ContextMenu>
+`;

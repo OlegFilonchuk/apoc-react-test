@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions"]
+        }
+      }
+    ],
+    "es2017"
+  ],
+  "plugins": [ "transform-object-rest-spread", "add-react-displayname", "transform-class-properties"]
+}

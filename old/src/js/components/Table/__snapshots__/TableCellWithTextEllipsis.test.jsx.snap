@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableCellWithTextEllipsis /> is not ellipsed matches snapshot 1`] = `
+<TableCellWithTextEllipsis
+  className=""
+  hideAfterDelayOf={0}
+  maxLines={3}
+  placement="topLeft"
+  popoverMaxWidth={undefined}
+  width=""
+>
+  <withTableContextTableCell
+    className="td-cell-with-text-ellipsis"
+    placement="topLeft"
+    width=""
+  >
+    <TableCell
+      className="td-cell-with-text-ellipsis"
+      placement="topLeft"
+      tableProps={
+        Object {
+          "getColumnContentTypes": [Function],
+          "registerColumn": [Function],
+          "unregisterColumn": [Function],
+        }
+      }
+      width=""
+    >
+      <td
+        className="td-cell-with-text-ellipsis sc-center-align"
+        placement="topLeft"
+        style={Object {}}
+      >
+        <MultilineEllipsisPopover
+          hideAfterDelayOf={0}
+          maxLines={3}
+          placement="topLeft"
+          popoverMaxWidth={undefined}
+        >
+          <MultilineEllipsis
+            innerRef={[Function]}
+            maxLines={3}
+          >
+            <_class
+              client={true}
+              innerRef={[Function]}
+              onResize={[Function]}
+              scroll={true}
+            >
+              <Measure
+                client={true}
+                contentRect={
+                  Object {
+                    "bounds": Object {},
+                    "client": Object {},
+                    "entry": Object {},
+                    "margin": Object {},
+                    "offset": Object {},
+                    "scroll": Object {},
+                  }
+                }
+                measure={[Function]}
+                measureRef={[Function]}
+                scroll={true}
+              >
+                <div
+                  key="truncated"
+                >
+                  Hello world
+                </div>
+              </Measure>
+            </_class>
+          </MultilineEllipsis>
+        </MultilineEllipsisPopover>
+      </td>
+    </TableCell>
+  </withTableContextTableCell>
+</TableCellWithTextEllipsis>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TilesList /> when rendering should have correct html 1`] = `
+<div
+  className="tiles-list"
+>
+  <Tile
+    amount={3}
+    className=""
+    footerItems={
+      Array [
+        "One",
+        "Two",
+        "Three",
+      ]
+    }
+    link="#testLink"
+    onClick={[Function]}
+    title="Test title"
+  />
+</div>
+`;

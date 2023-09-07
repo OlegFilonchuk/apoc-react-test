@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fieldset /> should overwrite default classes for wrapper 1`] = `
+<fieldset
+  className="fieldset sc-row sc-row-no-gutter"
+>
+  <div
+    className="sc-col-sm-2"
+  >
+    <Label
+      className=""
+      required={false}
+    >
+      Some Label
+    </Label>
+  </div>
+  <div
+    className="sc-col-sm-5"
+  >
+    <Input
+      className=""
+      hasError={false}
+      lettersLeftCount={Infinity}
+      onInputRef={[Function]}
+      onKeyDown={[Function]}
+      submitOnEnter={false}
+      suffix=""
+      type="text"
+    />
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> should render Fieldset with no label 1`] = `
+<fieldset
+  className="fieldset sc-row sc-row-no-gutter no-border"
+>
+  <div
+    className="sc-col-sm-9"
+  >
+    <Input
+      className=""
+      hasError={false}
+      lettersLeftCount={Infinity}
+      onInputRef={[Function]}
+      onKeyDown={[Function]}
+      submitOnEnter={false}
+      suffix=""
+      type="text"
+    />
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> should render default Fieldset 1`] = `
+<fieldset
+  className="fieldset sc-row sc-row-no-gutter"
+>
+  <div
+    className="sc-col-sm-3"
+  >
+    <Label
+      className=""
+      required={false}
+    >
+      Some Label
+    </Label>
+  </div>
+  <div
+    className="sc-col-sm-9"
+  >
+    <Input
+      className=""
+      hasError={false}
+      lettersLeftCount={Infinity}
+      onInputRef={[Function]}
+      onKeyDown={[Function]}
+      submitOnEnter={false}
+      suffix=""
+      type="text"
+    />
+  </div>
+</fieldset>
+`;
+
+exports[`<Fieldset /> should render nested Fieldsets with ToggleButton 1`] = `
+<fieldset
+  className="fieldset sc-row sc-row-no-gutter"
+>
+  <div
+    className="sc-col-sm-3"
+  >
+    <Label
+      className=""
+      required={false}
+    >
+      Toggle
+    </Label>
+  </div>
+  <div
+    className="sc-col-sm-9"
+  >
+    <ToggleButton
+      buttonType="button"
+      className={null}
+      errorMessage={null}
+      isDisabled={false}
+      isLightTheme={false}
+      isOn={true}
+      labelOff="off"
+      labelOn="on"
+      onSwitch={[Function]}
+      toggleId="uniqueId"
+      toggleSize="lg"
+    />
+    <Fieldset
+      className=""
+      hideLabel={false}
+      inputWrapperClassName="sc-col-sm-9"
+      labelWrapperClassName="sc-col-sm-3"
+    >
+      <Label
+        className=""
+        required={false}
+      >
+        Proxy
+      </Label>
+      <Input
+        className=""
+        hasError={false}
+        lettersLeftCount={Infinity}
+        onInputRef={[Function]}
+        onKeyDown={[Function]}
+        submitOnEnter={false}
+        suffix=""
+        type="text"
+      />
+    </Fieldset>
+    <Fieldset
+      className=""
+      hideLabel={false}
+      inputWrapperClassName="sc-col-sm-9"
+      labelWrapperClassName="sc-col-sm-3"
+    >
+      <Label
+        className=""
+        required={false}
+      >
+        Proxy
+      </Label>
+      <Input
+        className=""
+        hasError={false}
+        lettersLeftCount={Infinity}
+        onInputRef={[Function]}
+        onKeyDown={[Function]}
+        submitOnEnter={false}
+        suffix=""
+        type="text"
+      />
+    </Fieldset>
+  </div>
+</fieldset>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TestQueueDropdownOption> renders normal 1`] = `
+<span
+  className="test-queue-dropdown-option-label"
+>
+  <span
+    className="sc-icon-solid-square"
+    style={
+      Object {
+        "color": "blue",
+      }
+    }
+  />
+  <span
+    className="option-text"
+  >
+    some text
+  </span>
+</span>
+`;

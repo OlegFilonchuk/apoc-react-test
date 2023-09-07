@@ -1,0 +1,73 @@
+@import '../../utils/mixins/formElements';
+@import '~chameleon/less/variables.less';
+
+@counter-min-width: 30px;
+@text-counter-distance: 6px;
+
+@hidden: #b2b2b2;
+
+.input-field {
+  .form-element;
+
+  &-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__password-eye {
+    position: absolute;
+    display: inline-block;
+
+    right: 0.5em;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+      color: @primary-hover;
+    }
+    &__visible {
+      color: @primary;
+    }
+    &__hidden {
+      color: @hidden;
+    }
+  }
+
+  &__char-limit-counter {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    min-width: @counter-min-width;
+    height: calc(100% - 2px);
+    background-color: #eaeaea;
+    &__text {
+      position: relative;
+      top: 50%;
+      margin-top: -30%;
+      text-align: center;
+    }
+  }
+
+  .input-suffix-wrapper {
+    display: flex;
+  }
+
+  .input-field-suffix {
+    margin-left: 10px;
+    font-size: x-small;
+    color: #a4a3a3;
+  }
+}
+
+.with-characters-limit-input {
+  padding-right: calc(@counter-min-width + @text-counter-distance);
+}
+
+input[type='password'],
+input[type='text'] {
+  &.extra-password-padding {
+    padding-right: 32px;
+  }
+}

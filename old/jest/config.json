@@ -1,0 +1,17 @@
+{
+  "moduleFileExtensions": ["js", "jsx", "json"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/jest/", "/libs/"],
+  "setupFiles": ["./jest/shim.js", "./jest/setup.js"],
+  "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(js|jsx)$",
+  "rootDir": "..",
+  "moduleNameMapper": {
+    "^.+\\.(css|less)$": "<rootDir>/jest/mocks/style.js",
+    "^.+\\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$": "<rootDir>/jest/mocks/file.js"
+  },
+  "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+  "testPathIgnorePatterns": ["/node_modules/", "/guide/"],
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+  }
+}

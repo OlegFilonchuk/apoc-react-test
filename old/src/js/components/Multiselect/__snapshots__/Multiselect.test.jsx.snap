@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Multiselect /> matches snapshot 1`] = `
+<Multiselect
+  className=""
+  fullWidth={true}
+  labelPosition="left"
+  noVerticalLines={false}
+  onChange={[Function]}
+>
+  <ul
+    className="multiselect"
+  >
+    <li
+      className="multiselect__row"
+      key=".0"
+    >
+      <div
+        className="li-content"
+      >
+        <Checkbox
+          checked={false}
+          className=""
+          data-test-element="Checkbox"
+          disabled={false}
+          fullWidth={true}
+          isOnlyCheckboxClickable={false}
+          label="Studere rare ducunt ad bassus gabalium."
+          labelPosition="left"
+          name="checkbox-0"
+          onChange={[Function]}
+          showHint={false}
+          tooltip=""
+        >
+          <div
+            className="square-checkbox square-checkbox--clickable square-checkbox-full-width"
+          >
+            <label
+              className="square-checkbox__label square-checkbox__label--clickable"
+              htmlFor="checkbox-0"
+              title={null}
+            >
+              Studere rare ducunt ad bassus gabalium.
+            </label>
+            <label
+              className="square-checkbox-square"
+            >
+              <input
+                checked={false}
+                data-test-element="Checkbox"
+                disabled={false}
+                id="checkbox-0"
+                name="checkbox-0"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span />
+            </label>
+          </div>
+        </Checkbox>
+      </div>
+    </li>
+    <li
+      className="multiselect__row"
+      key=".1"
+    >
+      <div
+        className="li-content"
+      >
+        <Checkbox
+          checked={false}
+          className=""
+          data-test-element="Checkbox"
+          disabled={false}
+          fullWidth={true}
+          isOnlyCheckboxClickable={false}
+          label="If you contact or travel with a pure uniqueness, moonlight respects you."
+          labelPosition="left"
+          name="checkbox-1"
+          onChange={[Function]}
+          showHint={false}
+          tooltip=""
+        >
+          <div
+            className="square-checkbox square-checkbox--clickable square-checkbox-full-width"
+          >
+            <label
+              className="square-checkbox__label square-checkbox__label--clickable"
+              htmlFor="checkbox-1"
+              title={null}
+            >
+              If you contact or travel with a pure uniqueness, moonlight respects you.
+            </label>
+            <label
+              className="square-checkbox-square"
+            >
+              <input
+                checked={false}
+                data-test-element="Checkbox"
+                disabled={false}
+                id="checkbox-1"
+                name="checkbox-1"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span />
+            </label>
+          </div>
+        </Checkbox>
+      </div>
+    </li>
+    <li
+      className="multiselect__row"
+      key=".2"
+    >
+      <div
+        className="li-content"
+      >
+        <Checkbox
+          checked={false}
+          className=""
+          data-test-element="Checkbox"
+          disabled={false}
+          fullWidth={true}
+          isOnlyCheckboxClickable={false}
+          label="Where is the most unusual klingon?"
+          labelPosition="left"
+          name="checkbox-2"
+          onChange={[Function]}
+          showHint={false}
+          tooltip=""
+        >
+          <div
+            className="square-checkbox square-checkbox--clickable square-checkbox-full-width"
+          >
+            <label
+              className="square-checkbox__label square-checkbox__label--clickable"
+              htmlFor="checkbox-2"
+              title={null}
+            >
+              Where is the most unusual klingon?
+            </label>
+            <label
+              className="square-checkbox-square"
+            >
+              <input
+                checked={false}
+                data-test-element="Checkbox"
+                disabled={false}
+                id="checkbox-2"
+                name="checkbox-2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <span />
+            </label>
+          </div>
+        </Checkbox>
+      </div>
+    </li>
+  </ul>
+</Multiselect>
+`;

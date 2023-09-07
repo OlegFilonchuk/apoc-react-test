@@ -1,0 +1,29 @@
+@borderColor: #005da4;
+
+.noselect() {
+  user-select: none;
+  cursor: default;
+}
+
+.draggable-points {
+  width: 100%;
+  height: 100%;
+  .noselect;
+
+  .point {
+    position: absolute;
+    z-index: 1;
+
+    &--onTop {
+      z-index: 1000;
+
+      .point__handler {
+        background: @borderColor;
+      }
+    }
+
+    &__handler {
+      position: relative;
+    }
+  }
+}

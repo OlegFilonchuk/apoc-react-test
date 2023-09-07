@@ -1,0 +1,57 @@
+// needed so the selector is more concrete than the default
+// this will be simplified when chameleon icon font is properly centered
+.icon-button.icon-button {
+  &--default [class^='sc-icon-'] {
+    font-size: 16px;
+  }
+
+  &--edit [class^='sc-icon-'] {
+    font-size: 18px;
+  }
+
+  &--error [class^='sc-icon-'] {
+    font-size: 40px;
+  }
+
+  &--filter [class^='sc-icon-'] {
+    transform: translate(calc(-50% + 1px), calc(-50% + 1px));
+  }
+
+  &--flag [class^='sc-icon-'] {
+    font-size: 20px;
+  }
+
+  &--info [class^='sc-icon-'] {
+    font-size: 43px;
+    transform: translate(calc(-50% + -1px), -50%);
+  }
+
+  &--next [class^='sc-icon-'] {
+    font-size: 18px;
+    transform: translate(calc(-50% + 2px), -50%);
+  }
+
+  &--plus [class^='sc-icon-'] {
+    font-size: 16px;
+  }
+
+  &--prev [class^='sc-icon-'] {
+    font-size: 18px;
+  }
+
+  &--reset [class^='sc-icon-'] {
+    font-size: 20px;
+  }
+
+  &--undo [class^='sc-icon-'] {
+    font-size: 16px;
+  }
+
+  &--upload [class^='sc-icon-'] {
+    font-size: 19px;
+  }
+
+  &--xmark [class^='sc-icon-'] {
+    font-size: 16px;
+  }
+}

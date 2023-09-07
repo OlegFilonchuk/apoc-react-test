@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`numberInRange should return Error when prop exceeds range 1`] = `
+[Error: Ivalid prop 'somePropName' of type 'string' supplied to 'ComponentName',
+        expected 'number'.]
+`;
+
+exports[`numberInRange should return Error when prop is not of \`number\` type 1`] = `
+[Error: Ivalid prop 'somePropName' of type 'string' supplied to 'ComponentName',
+        expected 'number'.]
+`;
+
+exports[`numberInRange should return null for validation that is passing 1`] = `null`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render Button component 1`] = `
+<Button
+  className="sc-btn-default"
+  data-test-element=""
+  disabled={false}
+  id=""
+  isLinkView={false}
+  isSelected={false}
+  name=""
+  onClick={[Function]}
+  title=""
+  type="button"
+  value={null}
+>
+  <button
+    className="sc-btn sc-btn-default"
+    data-test-element="undefined"
+    disabled={false}
+    id=""
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    Foo Bar Button
+  </button>
+</Button>
+`;
+
+exports[`<Button /> should render disabled button  1`] = `
+<Button
+  className="sc-btn-default"
+  data-test-element=""
+  disabled={true}
+  id=""
+  isLinkView={false}
+  isSelected={false}
+  name=""
+  onClick={[Function]}
+  title=""
+  type="button"
+  value={null}
+>
+  <button
+    className="sc-btn sc-btn-default sc-disabled"
+    data-test-element="undefined"
+    disabled={true}
+    id=""
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    I'm disabled button
+  </button>
+</Button>
+`;

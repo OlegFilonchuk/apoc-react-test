@@ -1,0 +1,1465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollapseGroup /> should allow to open multiple Collapse components 1`] = `
+<CollapseGroup
+  allowMultipleOpened={true}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".2"
+      onToggled={[Function]}
+      title="Title3"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title3"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title3
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;
+
+exports[`<CollapseGroup /> should allow to open multiple Collapse components 2`] = `
+<CollapseGroup
+  allowMultipleOpened={true}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".2"
+      onToggled={[Function]}
+      title="Title3"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title3"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title3
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;
+
+exports[`<CollapseGroup /> should expand only one Collapse in CollapseGroup component 1`] = `
+<CollapseGroup
+  allowMultipleOpened={false}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;
+
+exports[`<CollapseGroup /> should expand only one Collapse in CollapseGroup component 2`] = `
+<CollapseGroup
+  allowMultipleOpened={false}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;
+
+exports[`<CollapseGroup /> should expand only one Collapse in CollapseGroup component 3`] = `
+<CollapseGroup
+  allowMultipleOpened={false}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={false}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={false}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-up"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--expanded"
+          style={
+            Object {
+              "maxHeight": -1,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;
+
+exports[`<CollapseGroup /> should render CollapseGroup component 1`] = `
+<CollapseGroup
+  allowMultipleOpened={false}
+  className=""
+  onToggled={[Function]}
+>
+  <div
+    className="sc-panel-group"
+  >
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".0"
+      onToggled={[Function]}
+      title="Title1"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title1"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title1
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+    <Collapse
+      className=""
+      customContent={null}
+      disableShouldComponentUpdate={false}
+      displayCounter={false}
+      iconPosition="left"
+      iconStyles={
+        Object {
+          "collapsed": "sc-icon-caret-down",
+          "expanded": "sc-icon-caret-up",
+        }
+      }
+      id=""
+      isClickDisabled={false}
+      isCollapsed={true}
+      isControlled={false}
+      isPanelButton={false}
+      key=".1"
+      onToggled={[Function]}
+      title="Title2"
+    >
+      <div
+        className="sc-panel collapse"
+      >
+        <CollapseHeader
+          className=""
+          countSelectedItems={null}
+          customContent={null}
+          data-test-element="CollapseHeader"
+          displayCounter={false}
+          iconPosition="left"
+          iconStyles={
+            Object {
+              "collapsed": "sc-icon-caret-down",
+              "expanded": "sc-icon-caret-up",
+            }
+          }
+          isClickDisabled={false}
+          isCollapsed={true}
+          isPanelButton={false}
+          onClick={[Function]}
+          title="Title2"
+        >
+          <div
+            className="sc-panel-heading"
+            data-test-element="CollapseHeader"
+            onClick={null}
+            role={null}
+          >
+            <div
+              className="sc-panel-title"
+            >
+              <span
+                className="sc-collapse-icon sc-fonticon sc-icon-caret-down"
+                onClick={[Function]}
+              />
+              <h3>
+                Title2
+              </h3>
+            </div>
+          </div>
+        </CollapseHeader>
+        <div
+          className="panel__wrapper panel__wrapper--collapsed"
+          style={
+            Object {
+              "maxHeight": 0,
+            }
+          }
+        >
+          <_class
+            offset={true}
+            onResize={[Function]}
+          >
+            <Measure
+              contentRect={
+                Object {
+                  "bounds": Object {},
+                  "client": Object {},
+                  "entry": Object {},
+                  "margin": Object {},
+                  "offset": Object {},
+                  "scroll": Object {},
+                }
+              }
+              measure={[Function]}
+              measureRef={[Function]}
+              offset={true}
+            >
+              <div
+                className="sc-panel-body"
+              >
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </Measure>
+          </_class>
+        </div>
+      </div>
+    </Collapse>
+  </div>
+</CollapseGroup>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea> should add placeholder to TextArea 1`] = `
+<textarea
+  className="text-area sc-form-ele "
+  defaultValue="test"
+  placeholder="placeholder"
+/>
+`;
+
+exports[`<TextArea> should render TextArea component 1`] = `
+<textarea
+  className="text-area sc-form-ele "
+  defaultValue="test"
+/>
+`;

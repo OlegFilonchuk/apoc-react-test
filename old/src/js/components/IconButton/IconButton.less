@@ -1,0 +1,30 @@
+@import '~chameleon/less/variables.less';
+
+@icon-button-size: ceil((@line-height-base * @font-size-base + 2 * @padding-base-vertical + 2));
+
+.icon-button {
+  width: @icon-button-size;
+  height: @icon-button-size;
+  overflow: hidden;
+  position: relative;
+
+  [class^='sc-icon-'] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &--no-border {
+    border-width: 0;
+
+    &:hover {
+      transition: background-color 0.1s;
+      border-width: 1px;
+    }
+  }
+
+  &--compact {
+    margin-left: 5px;
+  }
+}

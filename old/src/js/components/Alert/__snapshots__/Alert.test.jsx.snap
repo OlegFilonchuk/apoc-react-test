@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert> should render closed <Alert> 1`] = `
+<Alert
+  className=""
+  closeTimeout={3}
+  isClosable={true}
+  isOpen={false}
+  onClose={[Function]}
+  type="success"
+  zIndex={15501}
+/>
+`;
+
+exports[`<Alert> should render non closable <Alert> 1`] = `
+<div
+  className="sc-alert sc-alert-closable sc-animate alert sc-alert-success "
+  role="alert"
+  style={
+    Object {
+      "zIndex": 15501,
+    }
+  }
+>
+  <div
+    className="alert__label"
+  >
+    Text
+  </div>
+</div>
+`;
+
+exports[`<Alert> should render opened <Alert> 1`] = `
+<div
+  className="sc-alert sc-alert-closable sc-animate alert sc-alert-success "
+  role="alert"
+  style={
+    Object {
+      "zIndex": 15501,
+    }
+  }
+>
+  <div
+    className="alert__label"
+  >
+    Text
+  </div>
+  <button
+    aria-label="Close"
+    className="sc-close"
+    onClick={[Function]}
+  >
+    <span
+      aria-hidden="true"
+      className="sc-icon-xmark"
+    />
+  </button>
+</div>
+`;

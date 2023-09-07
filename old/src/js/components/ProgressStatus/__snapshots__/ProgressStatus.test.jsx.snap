@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressStatus /> renders ProgressStatus component 1`] = `
+<ProgressStatus
+  className=""
+  progress={30}
+  progressLabel="some file.txt"
+>
+  <div
+    className="progress-status "
+  >
+    <div
+      className="sc-row sc-row-no-gutter"
+    >
+      <div
+        className="sc-col-sm-8 sc-col-sm-3-offset"
+      >
+        <ul
+          className="progress-status__stages-container"
+        >
+          <ProgressStatusStage
+            className=""
+            key=".0"
+            status="inprogress"
+            title="Importing File"
+          >
+            <li
+              className="progress-status-stage__wrapper"
+            >
+              <div
+                className="progress-status-stage__container progress-status-stage__container--inprogress"
+              >
+                <span
+                  className="progress-status-stage__container-title"
+                >
+                  Importing File
+                </span>
+                <div
+                  className="progress-status-stage__progress-animation"
+                />
+              </div>
+            </li>
+          </ProgressStatusStage>
+          <ProgressStatusStage
+            className=""
+            key=".1"
+            status="waiting"
+            title="Converting To Scenario"
+          >
+            <li
+              className="progress-status-stage__wrapper"
+            >
+              <div
+                className="progress-status-stage__container"
+              >
+                <span
+                  className="progress-status-stage__container-title"
+                >
+                  Converting To Scenario
+                </span>
+              </div>
+            </li>
+          </ProgressStatusStage>
+          <ProgressStatusStage
+            className=""
+            key=".2"
+            status="waiting"
+            title="Reloading the view"
+          >
+            <li
+              className="progress-status-stage__wrapper"
+            >
+              <div
+                className="progress-status-stage__container"
+              >
+                <span
+                  className="progress-status-stage__container-title"
+                >
+                  Reloading the view
+                </span>
+              </div>
+            </li>
+          </ProgressStatusStage>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="sc-row sc-row-no-gutter"
+    >
+      <div
+        className="sc-col-sm-3 progress-status__label"
+      >
+        some file.txt
+      </div>
+      <div
+        className="sc-col-sm-8"
+      >
+        <Progressbar
+          className=""
+          color={
+            Object {
+              "dynamic": false,
+            }
+          }
+          percentage={30}
+          titleSettings={
+            Object {
+              "inside": false,
+              "outside": false,
+            }
+          }
+        >
+          <div>
+            <div
+              className="sc-progress"
+            >
+              <div
+                className="sc-progress-bar"
+                style={
+                  Object {
+                    "width": "30%",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </Progressbar>
+      </div>
+      <div
+        className="sc-col-sm-1 progress-status__progress"
+      >
+        30
+        %
+      </div>
+    </div>
+  </div>
+</ProgressStatus>
+`;

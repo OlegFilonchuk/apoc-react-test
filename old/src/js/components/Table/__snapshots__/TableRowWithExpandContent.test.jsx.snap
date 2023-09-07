@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableRowWithExpandContent /> should match snapshot 1`] = `
+<tr
+  className=""
+  onClickCapture={[Function]}
+>
+  <td
+    className="table-cell-with-expand-btn"
+    key=".0"
+  >
+    <ExpandButton
+      className=""
+      isExpanded={false}
+      key=".0/.0"
+      onExpand={[Function]}
+      type="button"
+    />
+    Some other content
+  </td>
+  <td
+    key=".$.$.1"
+  >
+    <button
+      id="clickable-content"
+    >
+      Content
+    </button>
+    <a
+      id="clickable-content2"
+    >
+      Content2
+    </a>
+  </td>
+  <td
+    key=".$.$.2"
+  >
+    <span
+      id="not-clickable-content"
+    >
+      Content
+    </span>
+  </td>
+</tr>
+`;

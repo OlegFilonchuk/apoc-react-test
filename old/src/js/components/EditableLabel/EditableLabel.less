@@ -1,0 +1,23 @@
+@import '~chameleon/less/variables.less';
+
+.editable-label {
+  label {
+    display: block;
+  }
+  input {
+    display: none;
+  }
+
+  &&--edit {
+    label {
+      display: none;
+    }
+    input {
+      display: block;
+    }
+  }
+
+  div&&--error {
+    border-color: @error;
+  }
+}

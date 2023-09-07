@@ -1,0 +1,63 @@
+.multiline-ellipsis {
+  @supports (-webkit-line-clamp: 2) {
+    & {
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  @supports not (-webkit-line-clamp: 2) {
+    & {
+      display: block;
+    }
+  }
+
+  & {
+    word-wrap: break-word;
+    background-color: inherit;
+    overflow-y: hidden;
+  }
+
+  &--on {
+    @supports not (-webkit-line-clamp: 2) {
+      .cross-browser-ellipsis(inherit);
+    }
+  }
+}
+
+/*
+
+  Mixin: cross-browser-ellipsis(@backgroundColor)
+
+  width:              To make it working properly the width of all necessary parents need to be set to 100%
+  background-color:   if @backgroundColor = inherit, then closest parent need to have
+                      solid backgrould-color to make it working properly
+*/
+.cross-browser-ellipsis(@backgroundColor) {
+  & {
+    width: inherit;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: @backgroundColor;
+  }
+
+  &:after {
+    background: @backgroundColor;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    content: '\200b';
+  }
+
+  &:before {
+    background: @backgroundColor;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    content: '\2026';
+    margin-left: -2rem;
+    width: 2rem;
+  }
+}

@@ -1,0 +1,63 @@
+@marker: #c0d0e0;
+@border: #cccccc;
+@light-background: #efefef;
+@circle-color: #005da4;
+@circle-diameter: 5px;
+@font-color: #333;
+
+.timeline {
+  height: 30px;
+
+  border: 1px solid @border;
+  border-top: 0;
+
+  background: @light-background;
+  padding-left: 20px;
+
+  &__labels {
+    position: relative;
+    font-size: 10px;
+  }
+
+  &__label {
+    position: absolute;
+
+    &:before {
+      height: 15px;
+      border-left: 1px solid @marker;
+
+      content: '';
+    }
+
+    &__text {
+      position: relative;
+      left: -50%;
+    }
+  }
+  &__point {
+    position: absolute;
+    color: @font-color;
+    top: -((@circle-diameter / 2));
+
+    font-family: open-sans-semibold;
+
+    display: flex;
+    flex-direction: column;
+
+    &:before {
+      position: relative;
+      background: @circle-color;
+      border-radius: 50%;
+      width: @circle-diameter;
+      height: @circle-diameter;
+      left: -((@circle-diameter / 2));
+
+      content: '';
+    }
+
+    &__text {
+      position: relative;
+      left: -50%;
+    }
+  }
+}

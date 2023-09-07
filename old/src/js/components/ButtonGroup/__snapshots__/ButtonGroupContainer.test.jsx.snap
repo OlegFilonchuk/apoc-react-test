@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroupContainer /> should change selected Button when changed through props 1`] = `
+<ButtonGroupContainer
+  className=""
+  onChange={[Function]}
+  selectedIndex={1}
+  useOnlyPropsSelectedIndex={false}
+>
+  <ButtonGroup
+    className=""
+  >
+    <div
+      className="panel-group"
+    >
+      <div
+        className="sc-btn-switch"
+      >
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$0"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={
+            Object {
+              "id": "test",
+            }
+          }
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline"
+            data-test-element="undefined"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 1
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={true}
+          key=".$1"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value="id"
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-on"
+            data-test-element="undefined-Id"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 2
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$2"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 3
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$3"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 4
+          </button>
+        </Button>
+      </div>
+    </div>
+  </ButtonGroup>
+</ButtonGroupContainer>
+`;
+
+exports[`<ButtonGroupContainer /> should change selected Button when clicked 1`] = `
+<ButtonGroupContainer
+  className=""
+  onChange={[Function]}
+  selectedIndex={0}
+  useOnlyPropsSelectedIndex={false}
+>
+  <ButtonGroup
+    className=""
+  >
+    <div
+      className="panel-group"
+    >
+      <div
+        className="sc-btn-switch"
+      >
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$0"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={
+            Object {
+              "id": "test",
+            }
+          }
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline"
+            data-test-element="undefined"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 1
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={true}
+          key=".$1"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value="id"
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-on"
+            data-test-element="undefined-Id"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 2
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$2"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 3
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$3"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 4
+          </button>
+        </Button>
+      </div>
+    </div>
+  </ButtonGroup>
+</ButtonGroupContainer>
+`;
+
+exports[`<ButtonGroupContainer /> should render ButtonGroupContainer component with 1st Button selected 1`] = `
+<ButtonGroupContainer
+  className=""
+  onChange={[Function]}
+  selectedIndex={0}
+  useOnlyPropsSelectedIndex={false}
+>
+  <ButtonGroup
+    className=""
+  >
+    <div
+      className="panel-group"
+    >
+      <div
+        className="sc-btn-switch"
+      >
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={true}
+          key=".$0"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={
+            Object {
+              "id": "test",
+            }
+          }
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-on"
+            data-test-element="undefined"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 1
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$1"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value="id"
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline"
+            data-test-element="undefined-Id"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 2
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$2"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 3
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$3"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 4
+          </button>
+        </Button>
+      </div>
+    </div>
+  </ButtonGroup>
+</ButtonGroupContainer>
+`;
+
+exports[`<ButtonGroupContainer /> should render ButtonGroupContainer component with no Button selected by default 1`] = `
+<ButtonGroupContainer
+  className=""
+  onChange={[Function]}
+  selectedIndex={-1}
+  useOnlyPropsSelectedIndex={false}
+>
+  <ButtonGroup
+    className=""
+  >
+    <div
+      className="panel-group"
+    >
+      <div
+        className="sc-btn-switch"
+      >
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$0"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={
+            Object {
+              "id": "test",
+            }
+          }
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline"
+            data-test-element="undefined"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 1
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={false}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$1"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value="id"
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline"
+            data-test-element="undefined-Id"
+            disabled={false}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 2
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$2"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 3
+          </button>
+        </Button>
+        <Button
+          className="sc-btn-primary-outline"
+          data-test-element=""
+          disabled={true}
+          id=""
+          isLinkView={false}
+          isSelected={false}
+          key=".$3"
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+          value={null}
+        >
+          <button
+            className="sc-btn sc-btn-primary-outline sc-disabled"
+            data-test-element="undefined"
+            disabled={true}
+            id=""
+            name=""
+            onClick={[Function]}
+            title=""
+            type="button"
+          >
+            Option 4
+          </button>
+        </Button>
+      </div>
+    </div>
+  </ButtonGroup>
+</ButtonGroupContainer>
+`;

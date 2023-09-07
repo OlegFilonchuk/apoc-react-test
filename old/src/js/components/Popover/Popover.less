@@ -1,0 +1,279 @@
+@import 'PopoverVariables';
+@import 'PopoverMixins';
+
+@sizeBetweenContentAndPopover: 20px;
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+
+  .tooltip-body {
+    display: inline-block;
+  }
+
+  .popover-title {
+    cursor: default;
+  }
+
+  .qtip {
+    z-index: @qtip-zindex;
+    min-width: @qtip-min-width;
+
+    .qtip-close {
+      display: none;
+    }
+
+    &.position-fixed {
+      position: fixed;
+    }
+
+    &.qtip-is-closable .qtip-close {
+      display: block;
+    }
+
+    &::before,
+    &:after {
+      right: @full-size;
+      top: @negative-full-size;
+      border: solid transparent;
+      content: ' ';
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &.qtip-chameleon-default {
+      &::before {
+        .qtip-arrow(@qtip-blue-border-color, @enabledBorderColor, @qtip-arrow-dark-border-width, 0, 0);
+      }
+
+      &::after {
+        .qtip-arrow(@qtip-light-blue-border-color, @enabledBgColor, @qtip-arrow-light-border-width, 0, 1px);
+      }
+    }
+
+    &.sc-qtip-chameleon-warning {
+      &::before {
+        .qtip-arrow(@qtip-yellow-border-color, @warningBorderColor, @qtip-arrow-dark-border-width, 0, 0);
+      }
+
+      &::after {
+        .qtip-arrow(@qtip-light-yellow-border-color, @warningBgColor, @qtip-arrow-light-border-width, 0, 1px);
+      }
+
+      header h2 {
+        border-bottom: 1px solid @warningBorderColor;
+      }
+    }
+
+    &.sc-qtip-chameleon-error {
+      &::before {
+        .qtip-arrow(@qtip-red-border-color, @errorBorderColor, @qtip-arrow-dark-border-width, 0, 0);
+      }
+
+      &::after {
+        .qtip-arrow(@qtip-light-red-border-color, @errorBgColor, @qtip-arrow-light-border-width, 0, 1px);
+      }
+
+      header h2 {
+        border-bottom: 1px solid @errorBorderColor;
+      }
+    }
+
+    &.qtip-without-arrow {
+      &::before,
+      &:after {
+        display: none;
+      }
+
+      &.qtip-pos-lt {
+        left: 100%;
+        top: calc(100% - 32px);
+      }
+
+      &.qtip-pos-rt {
+        right: 100%;
+        top: calc(100% - 32px);
+      }
+
+      &.qtip-pos-tr {
+        left: 100%;
+        top: 100%;
+      }
+
+      &.qtip-pos-tl {
+        right: 100%;
+        top: 100%;
+      }
+    }
+
+    &.qtip-disabled {
+      border: @one-pixel-size solid @disabledBorderColor;
+      background-color: @disabledBgColor;
+
+      &::before {
+        .qtip-arrow(@qtip-blue-border-color, @disabledBorderColor, @qtip-arrow-dark-border-width, 0, 0);
+      }
+
+      &::after {
+        .qtip-arrow(@qtip-light-blue-border-color, @disabledBgColor, @qtip-arrow-light-border-width, 0, 1px);
+      }
+    }
+
+    &.qtip-pos-lt {
+      .position-qtip(@half-size, @full-width-plus-anchor-width-plus-empty-space);
+
+      &::before,
+      &::after {
+        right: @full-size;
+        top: @negative-one-pixel;
+      }
+    }
+
+    &.qtip-pos-rt {
+      .position-qtip(@half-size, @qtip-pos-rt-left);
+      right: @full-width-plus-anchor-width-plus-empty-space;
+
+      &::before,
+      &::after {
+        .position-qtip(@negative-one-pixel, @full-size, @flip-horizontaly);
+      }
+
+      &::after {
+        border-top: 0;
+        margin-top: @one-pixel-size;
+      }
+    }
+
+    &.qtip-pos-tr {
+      .build-qtip-pos-styles(
+        @full-width-plus-anchor-width,
+        @half-size,
+        @qtip-pos-tr-transform,
+        @qtip-tr-tl-arrow-top,
+        @qtip-pos-tr-arrow-left,
+        @rotate-by-90deg-clockwise,
+        @anchorWidth,
+        @qtip-tr-tl-margin-top,
+        @one-pixel-size
+      );
+    }
+
+    &.qtip-pos-tl {
+      .build-qtip-pos-styles(
+        @full-width-plus-anchor-width,
+        @half-size,
+        @default-transform-value,
+        @qtip-tr-tl-arrow-top,
+        @qtip-pos-tl-arrow-left,
+        @qtip-pos-tl-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @qtip-tr-tl-margin-top,
+        @one-pixel-size
+      );
+    }
+
+    &.qtip-pos-br {
+      .build-qtip-pos-styles(
+        @negative-full-size,
+        @half-size,
+        @qtip-pos-br-transform,
+        @full-size,
+        @qtip-pos-br-arrow-left,
+        @default-transform-value,
+        @qtip-arrow-dark-border-width,
+        @qtip-br-bl-margin-top,
+        @negative-one-pixel
+      );
+    }
+
+    &.qtip-pos-bl {
+      .build-qtip-pos-styles(
+        @negative-full-size,
+        @half-size,
+        @qtip-pos-bl-transform,
+        @full-size,
+        @negative-one-pixel,
+        @qtip-pos-bl-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @qtip-br-bl-margin-top,
+        @one-pixel-size
+      );
+    }
+
+    &.qtip-pos-tm {
+      .build-qtip-pos-styles(
+        @full-width-plus-anchor-width,
+        @initial-size,
+        @default-transform-value,
+        @qtip-tm-arrow-top,
+        @qtip-pos-tm-arrow-left,
+        @qtip-pos-tm-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @one-pixel-size,
+        @initial-size
+      );
+    }
+
+    &.qtip-pos-rm {
+      .build-qtip-pos-styles(
+        @qtip-pos-rm-lm-top,
+        @negative-full-size-minus-double-anchor-width,
+        @default-transform-value,
+        @half-size,
+        @qtip-pos-rm-arrow-left,
+        @qtip-pos-rm-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @initial-size,
+        @negative-one-pixel
+      );
+    }
+
+    &.qtip-pos-lm {
+      .build-qtip-pos-styles(
+        @qtip-pos-rm-lm-top,
+        @full-size-plus-double-anchor-width,
+        @default-transform-value,
+        @qtip-lm-arrow-top,
+        @qtip-pos-lm-arrow-left,
+        @qtip-pos-lm-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @initial-size,
+        @one-pixel-size
+      );
+    }
+
+    &.qtip-pos-bm {
+      .build-qtip-pos-styles(
+        @negative-full-size,
+        @initial-size,
+        @qtip-pos-bl-transform,
+        @qtip-bm-arrow-top,
+        @qtip-pos-bm-arrow-left,
+        @qtip-pos-bm-arrow-transform,
+        @qtip-arrow-dark-border-width,
+        @negative-one-pixel,
+        @initial-size
+      );
+    }
+
+    .qtip-content {
+      /**
+        These rules doesn't change how component looks, but make possibility
+        to move cursor from content to popover without Popover's props `hideAfterDelayOf`
+      */
+      border-top: @sizeBetweenContentAndPopover solid transparent;
+      margin-top: -@sizeBetweenContentAndPopover;
+
+      .visible {
+        display: block;
+        visibility: visible;
+
+        header a:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+@import '~chameleon/less/variables.less';
+
+.popover__container {
+  .row {
+    width: 250px;
+    .column {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+
+.selectable-options-list {
+  display: flex;
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+  .left-module,
+  .right-module {
+    width: 267px;
+  }
+
+  .left-module {
+    .empty-files-for-add {
+      position: relative;
+      top: -100px;
+    }
+
+    .selectable-options-required {
+      &::before {
+        position: absolute;
+        top: 10px;
+        left: -11px;
+        color: @error;
+        content: '*';
+      }
+    }
+
+    .search-input {
+      position: relative;
+      display: inline-block;
+      padding: 4px 0;
+
+      &__input {
+        display: inline-block;
+        border-radius: 3em;
+        padding-right: 2em;
+      }
+
+      &__icon {
+        font-size: 16px;
+        color: @primary;
+        position: absolute;
+        right: 0.4em;
+        padding: 0.25em;
+      }
+    }
+  }
+
+  .right-module,
+  .left-module {
+    .elements-added-message {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .head-button-all-container {
+        display: flex;
+        flex-direction: row;
+
+        .left-list-item-button,
+        .right-list-item-button {
+          color: #008fd3;
+          cursor: pointer;
+          font-size: 18px;
+          padding-right: 5px;
+        }
+
+        .head-button-all-label {
+          color: #008fd3;
+          padding-top: 3px;
+
+          &.disabled {
+            color: #b2b2b2;
+          }
+        }
+
+        &.disabled {
+          .left-list-item-button,
+          .right-list-item-button {
+            color: #b2b2b2;
+            cursor: default;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+
+  .center-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sc-icon-double-arrow {
+      font-size: 15px;
+      padding: 5px 0;
+    }
+
+    .reverse-arrow {
+      transform: rotate(180deg);
+    }
+  }
+
+  .right-module {
+    .elements-added-message {
+      font-size: 15px;
+      color: #5b5b5b;
+      padding: 10px 0;
+    }
+
+    .right-module-empty-message {
+      line-height: 251px;
+      text-align: center;
+      font-size: 12px;
+      color: @paragraph;
+      background-color: @white-color;
+    }
+  }
+
+  .list {
+    height: 253px;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    list-style: none;
+    border: 1px solid #dedede;
+
+    .list-option {
+      display: block;
+      position: relative;
+      min-height: 28px;
+      padding: 4px 30px 4px 5px;
+      font-size: 13px;
+      border-bottom: 1px solid #dedede;
+
+      &__name {
+        word-wrap: break-word;
+
+        &--truncated {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .left-list-item-button,
+      .right-list-item-button {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+        font-size: 11px;
+        color: #008fd3;
+        cursor: pointer;
+      }
+
+      .left-list-item-button {
+        font-size: 18px;
+        top: 1px;
+      }
+
+      .tooltip-container .qtip {
+        min-width: 180px;
+      }
+    }
+
+    .list-option:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+}
+
+.extended-labels-enabled {
+  .selectable-options-list {
+    .left-module {
+      .search-input {
+        position: relative;
+        display: inline-block;
+        padding: 4px 0 7px;
+      }
+    }
+
+    .right-module,
+    .left-module {
+      .elements-added-message {
+        font-size: 12px;
+        line-height: 17px;
+        color: @paragraph;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+    }
+
+    .right-module {
+      padding-top: 42px;
+
+      .elements-added-message {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          top: 10px;
+          left: -11px;
+          color: @error;
+          content: '*';
+        }
+      }
+    }
+  }
+}

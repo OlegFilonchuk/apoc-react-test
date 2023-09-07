@@ -1,0 +1,42 @@
+@import '../../utils/mixins/formElements';
+@import '~chameleon/less/variables.less';
+
+.load-constraint-panel {
+  color: @primary-hover;
+
+  .input-field-small {
+    width: 50px;
+    margin-top: -7px;
+  }
+  .column {
+    width: 400px;
+  }
+  .toggle-button {
+    margin-right: 10px;
+  }
+
+  .input-suffix-wrapper {
+    display: flex;
+  }
+
+  .input-field-suffix {
+    margin-left: 10px;
+    color: #a4a3a3;
+    font-size: x-small;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #a5a4a4;
+
+    tr td .fieldset.without-border {
+      border: 0px;
+    }
+
+    .sc-label {
+      text-align: left;
+    }
+  }
+}

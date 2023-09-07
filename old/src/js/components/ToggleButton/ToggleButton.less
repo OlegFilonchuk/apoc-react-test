@@ -1,0 +1,209 @@
+.toggle-button {
+  @labelFontColor: #ffffff;
+  @labelFontSize: 85%;
+  @toggleOnBgColor: #0290d7;
+  @toggleOffBgColor: #8b8b8b;
+  @toggleOnHoveredBgColor: #005da4;
+  @toggleOffHoveredBgColor: #585858;
+
+  @largeToggleWidth: 85px;
+  @largeToggleHeight: 46px;
+
+  @mediumToggleWidth: 73px;
+  @mediumToggleHeight: 34px;
+
+  @smallToggleWidth: 61px;
+  @smallToggleHeight: 22px;
+
+  @extraSmallToggleWidth: 38px;
+  @extraSmallToggleHeight: 15px;
+
+  & *,
+  &:hover * {
+    cursor: pointer;
+  }
+
+  .disableTextSelection() {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .countInnerSizeAndRadius(@width, @height: @width) {
+    // display and box
+    width: @width;
+    height: @height;
+    border-radius: (@height / 2);
+  }
+
+  .countInnerSwitcherSize(@toggleWidth, @toggleHeight) {
+    width: (((@toggleWidth - (@toggleHeight - 2px)) * 2) + (@toggleHeight - 2px));
+    height: (@toggleHeight - 2px);
+  }
+
+  .countToggleSizes(@toggleWidth, @toggleHeight, @innerButtonSize: (@toggleHeight - 2px)) {
+    .countInnerSizeAndRadius(@toggleWidth, @toggleHeight);
+
+    .items-tumbler {
+      .countInnerSwitcherSize(@toggleWidth, @toggleHeight);
+
+      // position
+      position: absolute;
+      top: 1px;
+
+      //other
+      transition: left 0.5s;
+
+      &.on {
+        left: -1px;
+      }
+
+      &.off {
+        left: ((@toggleWidth - @innerButtonSize - 1px) * -1);
+      }
+
+      .label {
+        // position
+        float: left;
+
+        // display and box
+        overflow: hidden;
+        width: (@toggleWidth - @innerButtonSize);
+        padding: 0 5px;
+
+        // color
+        color: @labelFontColor;
+
+        // font
+        font-size: @labelFontSize;
+        text-align: center;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: @innerButtonSize;
+
+        .disableTextSelection();
+      }
+
+      button {
+        .countInnerSizeAndRadius(@innerButtonSize);
+
+        // position
+        float: left;
+
+        // display and box
+        border: 0;
+        outline: none;
+
+        // color
+        background-color: #ffffff;
+      }
+    }
+  }
+
+  &.lg {
+    .countToggleSizes(@largeToggleWidth, @largeToggleHeight);
+  }
+
+  &.md {
+    .countToggleSizes(@mediumToggleWidth, @mediumToggleHeight);
+  }
+
+  &.sm {
+    .countToggleSizes(@smallToggleWidth, @smallToggleHeight);
+  }
+
+  &.xs {
+    .countToggleSizes(@extraSmallToggleWidth, @extraSmallToggleHeight);
+
+    .label {
+      visibility: hidden;
+    }
+  }
+
+  position: relative;
+  overflow: hidden;
+
+  &.is-on,
+  &.is-on:hover {
+    background-color: @toggleOnBgColor;
+  }
+
+  &.is-off,
+  &.is-off:hover {
+    background-color: @toggleOffBgColor;
+  }
+
+  &.is-disabled {
+    @disabledBgColor: #b2b2b2;
+    @disabledTextColor: #b2b2b2;
+    @disabledBorderColor: #ccc;
+
+    background-color: @disabledBgColor;
+    color: @disabledTextColor;
+    border-color: @disabledBorderColor;
+
+    & *,
+    &:hover * {
+      cursor: not-allowed;
+    }
+
+    &.is-on,
+    &.is-on:hover {
+      background-color: @disabledBgColor;
+    }
+
+    &.is-off,
+    &.is-off:hover {
+      background-color: @disabledBgColor;
+    }
+  }
+
+  &.is-light-theme {
+    &.is-off,
+    &.is-off:hover {
+      border: 1px solid @toggleOnBgColor;
+      background-color: @labelFontColor;
+
+      .items-tumbler {
+        &.off {
+          top: 0;
+          left: -25px;
+        }
+      }
+
+      .big-toggle__inner-circle {
+        border: 1px solid @toggleOnBgColor;
+      }
+    }
+
+    &.is-disabled {
+      @disabledBgColor: #f2f2f2;
+      @disabledTextColor: #f2f2f2;
+      @disabledBorderColor: #ccc;
+
+      background-color: @disabledBgColor;
+      color: @disabledTextColor;
+      border-color: @disabledBorderColor;
+
+      &.is-on,
+      &.is-on:hover {
+        background-color: @disabledBgColor;
+      }
+
+      &.is-off,
+      &.is-off:hover {
+        border: 1px solid @disabledBorderColor;
+        background-color: @disabledBgColor;
+
+        .big-toggle__inner-circle {
+          border: 1px solid @disabledBorderColor;
+          background-color: @disabledBgColor;
+        }
+      }
+    }
+  }
+}

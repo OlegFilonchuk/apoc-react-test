@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should set closed modal 1`] = `
+<div
+  className="modal-dialog"
+>
+  <div
+    className="sc-dialog sc-animate"
+    style={
+      Object {
+        "zIndex": 15500,
+      }
+    }
+  >
+    <div
+      className="sc-dialog-box "
+    >
+      <div
+        className="sc-dialog-content"
+      >
+        <div
+          className="sc-dialog-header"
+        >
+          <h3
+            className="sc-dialog-title"
+          >
+            Foo title
+          </h3>
+        </div>
+        <div
+          className="sc-dialog-body"
+        >
+          <p>
+            Bar
+          </p>
+        </div>
+        <div
+          className="sc-dialog-footer"
+        >
+          <div>
+            <button>
+              Test
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Modal /> should set opened modal 1`] = `
+<div
+  className="modal-dialog"
+>
+  <div
+    className="sc-dialog sc-animate sc-on"
+    style={
+      Object {
+        "zIndex": 15500,
+      }
+    }
+  >
+    <div
+      className="sc-dialog-box "
+    >
+      <div
+        className="sc-dialog-content"
+      >
+        <div
+          className="sc-dialog-header"
+        >
+          <h3
+            className="sc-dialog-title"
+          >
+            Foo title
+          </h3>
+        </div>
+        <div
+          className="sc-dialog-body"
+        >
+          <p>
+            Bar
+          </p>
+        </div>
+        <div
+          className="sc-dialog-footer"
+        >
+          <div>
+            <button>
+              Test
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

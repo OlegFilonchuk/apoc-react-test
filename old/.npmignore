@@ -1,0 +1,7 @@
+/coverage
+/docs
+/jest
+/scripts
+env.js
+webpack.config.js
+styleguide.config.js

@@ -1,0 +1,57 @@
+@import '~chameleon/less/variables.less';
+
+@filterlist-vertical-spacing-scale: 2;
+@filterlist-horizontal-spacing-scale: 1.5;
+
+@padding-v: (@padding-base-vertical / @filterlist-vertical-spacing-scale);
+@padding-h: (@padding-base-horizontal / @filterlist-horizontal-spacing-scale);
+
+.filterlist {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+
+  &__option,
+  &__remove-all {
+    display: inline-block;
+    margin: 0 0 0 (@margin-btn / @filterlist-horizontal-spacing-scale);
+
+    button {
+      background: transparent;
+      border: none;
+
+      &:hover {
+        color: @primary-hover;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  &__option {
+    background-color: #eaeaea;
+    padding: @padding-v 0 @padding-v @padding-h;
+
+    button {
+      font-size: 110%;
+      padding: 0 @padding-h;
+    }
+
+    &--dummy {
+      opacity: 0;
+      width: 0;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+
+  &__remove-all {
+    background-color: transparent;
+    color: @primary;
+  }
+}

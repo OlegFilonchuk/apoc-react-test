@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPagination HoC render component should render <div> with Pagination 1`] = `
+<divWithPagination
+  paginationProps={
+    Object {
+      "currentPage": 16,
+      "itemsPerPage": 5,
+      "key": "pagination",
+      "onChange": [Function],
+      "totalItems": 82,
+    }
+  }
+  slots={
+    Object {
+      "infoLabelAfter": null,
+      "infoLabelBefore": null,
+    }
+  }
+  wrapperClassName=""
+>
+  <div
+    className=""
+  >
+    <div
+      className="withPagination__wrapper"
+    >
+      <div
+        className="withPagination__infoLabelWrapper"
+      >
+        <span>
+          76-80 of 82 found
+        </span>
+      </div>
+      <Pagination
+        NumberWrapper={null}
+        className=""
+        currentPage={16}
+        getCustomLabel={null}
+        itemsPerPage={5}
+        key="pagination"
+        maximumPaginationSize={7}
+        onChange={[Function]}
+        pagesLimit={20}
+        showGotoPage={false}
+        showTooltips={false}
+        showTotalLabel={false}
+        totalItems={82}
+      >
+        <div
+          className="pagination-wrapper"
+        >
+          <ul
+            className="pagination-list"
+          >
+            <li
+              className="page next-page"
+            >
+              <a
+                className="page-label sc-icon-caret-left"
+                data-test-element="previousPageButton"
+                onClick={[Function]}
+              >
+                 
+              </a>
+            </li>
+            <PaginationButton
+              currentPage={false}
+              customLabel={1}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="1"
+              label={1}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <a
+                  className="page-label"
+                  data-test-element="pageButton-1"
+                  onClick={[Function]}
+                >
+                  1
+                </a>
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={false}
+              customLabel={false}
+              hiddenPages={Array []}
+              isBreadcrumbs={true}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="12"
+              label={false}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page page-break"
+              >
+                …
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={false}
+              customLabel={13}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="13"
+              label={13}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <a
+                  className="page-label"
+                  data-test-element="pageButton-13"
+                  onClick={[Function]}
+                >
+                  13
+                </a>
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={false}
+              customLabel={14}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="14"
+              label={14}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <a
+                  className="page-label"
+                  data-test-element="pageButton-14"
+                  onClick={[Function]}
+                >
+                  14
+                </a>
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={false}
+              customLabel={15}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="15"
+              label={15}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <a
+                  className="page-label"
+                  data-test-element="pageButton-15"
+                  onClick={[Function]}
+                >
+                  15
+                </a>
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={true}
+              customLabel={16}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="16"
+              label={16}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <span
+                  className="page-label current-page"
+                >
+                  16
+                </span>
+              </li>
+            </PaginationButton>
+            <PaginationButton
+              currentPage={false}
+              customLabel={17}
+              hiddenPages={Array []}
+              isBreadcrumbs={false}
+              isFirstPage={false}
+              isTotalPagesExceeded={false}
+              key="17"
+              label={17}
+              onClick={[Function]}
+              showTooltips={false}
+            >
+              <li
+                className="page"
+              >
+                <a
+                  className="page-label"
+                  data-test-element="pageButton-17"
+                  onClick={[Function]}
+                >
+                  17
+                </a>
+              </li>
+            </PaginationButton>
+            <li
+              className="page next-page"
+            >
+              <a
+                className="page-label sc-icon-caret-right"
+                data-test-element="nextPageButton"
+                onClick={[Function]}
+              >
+                 
+              </a>
+            </li>
+          </ul>
+        </div>
+      </Pagination>
+    </div>
+    <div
+      slots={
+        Object {
+          "infoLabelAfter": null,
+          "infoLabelBefore": null,
+        }
+      }
+    >
+      <div />
+    </div>
+  </div>
+</divWithPagination>
+`;

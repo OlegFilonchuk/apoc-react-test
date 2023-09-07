@@ -1,0 +1,17 @@
+@border-radius-size: 17px;
+
+.sc-btn-switch {
+  .sc-btn {
+    border-radius: 0;
+    margin-left: -1px;
+
+    &:first-child {
+      margin-left: 0;
+      border-radius: @border-radius-size 0 0 @border-radius-size;
+    }
+
+    &:last-child {
+      border-radius: 0 @border-radius-size @border-radius-size 0;
+    }
+  }
+}

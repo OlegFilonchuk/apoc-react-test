@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalGroup /> Modal group render should render ModalGroup with multiple modals 1`] = `
+<div
+  className=""
+>
+  <Backdrop
+    className=""
+    isVisible={false}
+    onClick={[Function]}
+    zIndex={15499}
+  />
+  <Modal
+    className=""
+    footer={
+      <span>
+        test
+      </span>
+    }
+    header=""
+    isOpen={false}
+    key="first_modal15500"
+    name="first_modal"
+    zIndex={15500}
+  >
+    Hello World from fist modal!
+  </Modal>
+  <Modal
+    className=""
+    footer={
+      <span>
+        test2
+      </span>
+    }
+    header=""
+    isOpen={false}
+    key="second_modal15500"
+    name="second_modal"
+    zIndex={15501}
+  >
+    Hello World from fist modal!
+  </Modal>
+</div>
+`;
+
+exports[`<ModalGroup /> Modal group render should render ModalGroup with one modal 1`] = `
+<div
+  className=""
+>
+  <Backdrop
+    className=""
+    isVisible={false}
+    onClick={[Function]}
+    zIndex={15499}
+  />
+  <Modal
+    className=""
+    footer={
+      <span>
+        test
+      </span>
+    }
+    header=""
+    isOpen={false}
+    key="first_modal15500"
+    name="first_modal"
+    zIndex={15500}
+  >
+    Hello World from fist modal!
+  </Modal>
+</div>
+`;
+
+exports[`<ModalGroup /> Modal group render should render ModalGroup with open modal if modal Id is in multistackModals 1`] = `
+<div
+  className=""
+>
+  <Backdrop
+    className=""
+    isVisible={true}
+    onClick={[Function]}
+    zIndex={15501}
+  />
+  <Modal
+    className=""
+    footer={
+      <span>
+        test
+      </span>
+    }
+    header=""
+    isOpen={true}
+    key="first_modal15500"
+    name="first_modal"
+    zIndex={15501}
+  >
+    Hello World from fist modal!
+  </Modal>
+  <Modal
+    className=""
+    footer={
+      <span>
+        test2
+      </span>
+    }
+    header=""
+    isOpen={false}
+    key="second_modal15500"
+    name="second_modal"
+    zIndex={15502}
+  >
+    Hello World from fist modal!
+  </Modal>
+</div>
+`;

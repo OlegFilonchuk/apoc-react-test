@@ -1,0 +1,7 @@
+@import './tableVariables.less';
+
+@paddingLeftForCellWithExpandButton: calc(@expandButtonWidth + @cellPadding);
+
+.table-head-row-for-expand-rows th:first-child {
+  padding-left: @paddingLeftForCellWithExpandButton;
+}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditableLabel /> should render correct structure default 1`] = `
+<div
+  className="editable-label"
+>
+  <label
+    onClick={[Function]}
+  >
+    some initial value
+  </label>
+</div>
+`;
+
+exports[`<EditableLabel /> should render correct structure in edit mode 1`] = `
+<div
+  className="editable-label editable-label--edit"
+>
+  <label
+    onClick={[Function]}
+  >
+    some initial value
+  </label>
+  <Input
+    alreadyFocused={false}
+    className=""
+    hasError={false}
+    inEditMode={true}
+    maxLength={140}
+    onCanceled={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onSubmit={[Function]}
+    readOnly={false}
+  >
+    some initial value
+  </Input>
+</div>
+`;
+
+exports[`<EditableLabel /> should render correct structure read only 1`] = `
+<div
+  className="editable-label"
+>
+  <label
+    onClick={[Function]}
+  >
+    some initial value
+  </label>
+</div>
+`;
+
+exports[`<EditableLabel /> should render correct structure with error 1`] = `
+<div
+  className="editable-label editable-label--error"
+>
+  <label
+    onClick={[Function]}
+  >
+    some initial value
+  </label>
+</div>
+`;

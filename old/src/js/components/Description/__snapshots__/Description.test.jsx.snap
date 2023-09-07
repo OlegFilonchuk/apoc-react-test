@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Description> should add placeholder to description 1`] = `
+<TextAreaWithCharactersLimit
+  className=""
+  maxLength={280}
+  placeholder="placeholder"
+  value="test"
+/>
+`;
+
+exports[`<Description> should render Description component 1`] = `
+<TextAreaWithCharactersLimit
+  className=""
+  maxLength={280}
+  value="test"
+/>
+`;

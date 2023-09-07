@@ -1,0 +1,80 @@
+@import "ContextMenuVariables";
+@import '~chameleon/less/variables.less';
+
+.sc-dropdown-menus.sc-dropdown-menus--relative {
+  position: relative;
+}
+
+.context-menu__button {
+  border: none;
+  background: transparent;
+  outline: none;
+
+  &:hover {
+    color: @border-and-text-color;
+  }
+}
+
+.context-menu {
+  &__items {
+    & {
+      display: block;
+      min-width: initial;
+      border-color: @border-and-text-color;
+      outline: 1px solid @context-menu-outline-color;
+      left: initial; // overwriting chameleon styles
+
+      li {
+        a, .sc-btn.link-view {
+          display: block;
+          clear: both;
+          line-height: 1.43;
+          white-space: nowrap;
+          cursor: pointer;
+          color: @border-and-text-color;
+          font-family: open-sans-regular;
+          font-size: @font-size-base;
+          padding: 3px 10px;
+          text-align: left;
+        }
+        a:hover {
+          text-decoration: none;
+          background-color: #c4e3f3;
+          outline: 0;
+        }
+        .sc-btn.link-view {
+          margin-left: 0;
+          border-radius: 0;
+          width: 100%;
+          &:hover {
+            text-decoration: none;
+            background-color: #c4e3f3;
+            outline: 0;
+          }
+        }
+        a.with-icon,
+        .sc-btn.with-icon {
+          justify-content: space-between;
+
+          span {
+            padding-left: 10px;
+          }
+        }
+        .sc-focus {
+          color: @border-and-text-color;
+          background-color: @focused-item-color;
+        }
+
+        a.context-option-link--disabled {
+          &, &:hover {
+            background-color: transparent;;
+            cursor: default;
+            opacity: 0.5;
+            pointer-events: none;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

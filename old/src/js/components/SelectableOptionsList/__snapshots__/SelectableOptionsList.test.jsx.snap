@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectableOptionsList should match to it's snapshot 1`] = `
+<div
+  className="test-className"
+>
+  <div
+    className="selectable-options-list"
+    onMouseMove={[Function]}
+  >
+    <div
+      className="left-module"
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          className="head search-input"
+        >
+          <div
+            className="search-input selectable-options-required"
+          >
+            <Input
+              className="search-input__input"
+              data-test-element="selectableOptionsListFilterInput"
+              hasError={false}
+              lettersLeftCount={Infinity}
+              onChange={[Function]}
+              onInputRef={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Search for tests"
+              submitOnEnter={false}
+              suffix=""
+              type="text"
+              value=""
+            />
+            <i
+              className="search-input__icon sc-icon-search-ctr"
+            />
+          </div>
+        </div>
+        <ul
+          className="list"
+        >
+          <li
+            className="list-option"
+            key="AAA"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="list-option__name"
+            >
+              AAA
+            </div>
+            <div
+              className="left-list-item-button sc-icon-circle-plus-btn"
+              data-test-element="AAAAddButton"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="list-option"
+            key="BBB"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="list-option__name"
+            >
+              BBB
+            </div>
+            <div
+              className="left-list-item-button sc-icon-circle-plus-btn"
+              data-test-element="BBBAddButton"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="list-option"
+            key="DDD"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="list-option__name"
+            >
+              DDD
+            </div>
+            <div
+              className="left-list-item-button sc-icon-circle-plus-btn"
+              data-test-element="DDDAddButton"
+              onClick={[Function]}
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="center-module"
+    >
+      <span
+        className="sc-icon-double-arrow"
+      />
+    </div>
+    <div
+      className="right-module"
+      onMouseOver={[Function]}
+    >
+      <div
+        className="head elements-added-message"
+      >
+        2 tests added
+      </div>
+      <ul
+        className="list"
+      >
+        <li
+          className="list-option"
+          key="CCC"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="list-option__name"
+          >
+            CCC
+          </div>
+          <span
+            className="right-list-item-button sc-icon-xmark-ctr"
+            data-test-element="CCCAddButton"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="list-option"
+          key="EEE"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="list-option__name"
+          >
+            EEE
+          </div>
+          <span
+            className="right-list-item-button sc-icon-xmark-ctr"
+            data-test-element="EEEAddButton"
+            onClick={[Function]}
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

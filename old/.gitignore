@@ -1,0 +1,14 @@
+node_modules
+.idea
+.DS_Store
+/**/node_modules
+dist/
+npm-debug.*
+coverage/
+build/
+dist/
+guide/
+*.swp
+.vscode/
+package-lock.json
+yarn-error.log

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalWithBackdrop /> ModalWithBackdrop render should render ModalWithBackdrop 1`] = `
+<ModalWithBackdrop
+  backdrop={
+    Object {
+      "onClick": [Function],
+    }
+  }
+  footer={
+    <span>
+      test
+    </span>
+  }
+  header=""
+  onOutsideModalClick={[Function]}
+>
+  Hello World from fist modal!
+</ModalWithBackdrop>
+`;

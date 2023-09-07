@@ -1,0 +1,128 @@
+@import '~chameleon/less/variables.less';
+
+@schedule-padding: 10px;
+@max-width: 523px;
+
+.col-3 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.schedule-picker {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid @panel-default-border;
+  background-color: @gray-lighter;
+  width: 100%;
+  padding: @schedule-padding;
+  max-width: @max-width;
+}
+
+.duplicate {
+  margin-bottom: @schedule-padding;
+}
+
+.del-schedule {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  color: @primary;
+  border: 1px solid @primary;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: @primary;
+  }
+}
+
+.schedule-period {
+  &-row {
+    margin-bottom: @schedule-padding;
+  }
+
+  &-config-row {
+    background-color: @panel-bg;
+    padding: @schedule-padding;
+    border: 1px solid @panel-default-border;
+  }
+}
+
+.force-stop {
+  padding-top: @schedule-padding;
+  padding-bottom: @schedule-padding;
+
+  &__button + div {
+    margin-top: (2 * @schedule-padding);
+  }
+}
+
+.multiselect-wrapper {
+  margin-bottom: @schedule-padding;
+
+  & > ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    & li {
+      width: 25%;
+
+      & > div {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .square-checkbox-square {
+    border-color: @primary;
+
+    input[type='checkbox']:checked:not([disabled]) + span {
+      background-color: @primary;
+    }
+  }
+}
+
+.monthly {
+  &__fieldset {
+    padding-bottom: (2 * @schedule-padding);
+  }
+
+  &-on {
+    margin: 0;
+
+    &__dropdown-button {
+      & > button {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.hint-row {
+  padding-top: 15px;
+  padding-bottom: 5px;
+
+  &__description {
+    padding-bottom: 5px;
+  }
+
+  &__author {
+    padding-bottom: 5px;
+  }
+}

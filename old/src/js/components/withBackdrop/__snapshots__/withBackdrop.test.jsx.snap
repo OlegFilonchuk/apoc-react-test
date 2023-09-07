@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withBackdrop HoC general functionality should render <div /> with backdrop 1`] = `
+<undefinedWithBackdrop
+  backdrop={
+    Object {
+      "className": "",
+      "isVisible": false,
+      "onClick": [Function],
+      "zIndex": 15500,
+    }
+  }
+  isOpen={true}
+>
+  <div>
+    <Backdrop
+      className=""
+      isVisible={true}
+      onClick={[Function]}
+      zIndex={15500}
+    >
+      <div
+        className="backdrop backdrop--visible"
+        onClick={[Function]}
+        style={
+          Object {
+            "zIndex": 15500,
+          }
+        }
+      />
+    </Backdrop>
+    <div
+      isOpen={true}
+    >
+      <div />
+    </div>
+  </div>
+</undefinedWithBackdrop>
+`;

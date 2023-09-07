@@ -1,0 +1,38 @@
+@animationDuration: 0.3s;
+
+.collapse {
+  .panel__wrapper {
+    overflow: hidden;
+    transition: max-height @animationDuration ease-out;
+
+    &--expanded {
+      overflow: initial;
+      animation-name: expanding;
+      animation-duration: @animationDuration;
+      animation-delay: 0s;
+    }
+  }
+
+  .sc-panel-heading {
+    position: relative;
+  }
+
+  &__custom-content {
+    display: flex;
+    position: absolute;
+    right: 5%;
+  }
+
+  &__counter {
+    margin-left: 5px;
+  }
+}
+
+@keyframes expanding {
+  from {
+    overflow: hidden;
+  }
+  to {
+    overflow: hidden;
+  }
+}

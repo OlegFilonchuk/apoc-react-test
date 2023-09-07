@@ -1,0 +1,50 @@
+@modal-header-size: 54px;
+@modal-footer-size: 60px;
+
+@modal-margin: 10px;
+@modal-tablet-margin: 100px;
+
+@modal-body-spacing: (@modal-header-size + @modal-footer-size + (@modal-margin * 2));
+@modal-body-spacing-tablet: (@modal-header-size + @modal-footer-size + (@modal-tablet-margin * 2));
+
+// .modal-dialog class is required in order no to mix styles with the CanJS based version of Apoc library
+.modal-dialog .sc-dialog {
+  pointer-events: none;
+
+  &,
+  &-backdrop {
+    &.sc-on {
+      display: block;
+    }
+  }
+
+  &-header {
+    height: @modal-header-size;
+  }
+
+  &-body {
+    overflow-y: auto;
+    max-height: calc(100vh - @modal-body-spacing);
+
+    @media (min-width: 768px) {
+      max-height: calc(100vh - @modal-body-spacing-tablet);
+    }
+  }
+
+  &-footer {
+    height: @modal-footer-size;
+  }
+
+  &-backdrop {
+    display: none;
+
+    &:not(.sc-on) {
+      z-index: -1;
+    }
+  }
+
+  .sc-dialog-box {
+    pointer-events: all;
+    margin: 50px auto;
+  }
+}

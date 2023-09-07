@@ -1,0 +1,19 @@
+@strokeColor: #0290d7;
+@fillColor: #c4e3f3;
+
+.fillPath {
+  stroke-width: 0;
+  fill: @fillColor;
+}
+
+.strokePath {
+  stroke: @strokeColor;
+  fill: transparent;
+}
+
+.projection {
+  shape-rendering: crispEdges;
+  stroke-width: 1;
+  stroke: @strokeColor;
+  stroke-dasharray: 3, 1;
+}

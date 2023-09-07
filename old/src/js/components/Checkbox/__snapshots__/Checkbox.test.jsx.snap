@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> alt text should have correct HTML structure 1`] = `undefined`;
+
+exports[`<Checkbox /> when prop disabled is set to \`false\` renders enabled component 1`] = `
+<Checkbox
+  checked={false}
+  className=""
+  disabled={false}
+  fullWidth={false}
+  isOnlyCheckboxClickable={false}
+  label="test"
+  labelPosition="right"
+  name=""
+  showHint={false}
+  tooltip=""
+>
+  <div
+    className="square-checkbox square-checkbox--clickable"
+  >
+    <label
+      className="square-checkbox-square"
+    >
+      <input
+        checked={false}
+        disabled={false}
+        id="checkbox-gid-11"
+        name=""
+        type="checkbox"
+      />
+      <span />
+    </label>
+    <label
+      className="square-checkbox__label square-checkbox__label--clickable"
+      htmlFor="checkbox-gid-11"
+      title={null}
+    >
+      test
+    </label>
+  </div>
+</Checkbox>
+`;
+
+exports[`<Checkbox /> when prop disabled is set to \`true\` renders disabled component 1`] = `
+<Checkbox
+  checked={false}
+  className=""
+  disabled={true}
+  fullWidth={false}
+  isOnlyCheckboxClickable={false}
+  label="test"
+  labelPosition="right"
+  name=""
+  showHint={false}
+  tooltip=""
+>
+  <div
+    className="square-checkbox square-checkbox--clickable square-checkbox-disabled"
+  >
+    <label
+      className="square-checkbox-square"
+    >
+      <input
+        checked={false}
+        disabled={true}
+        id="checkbox-gid-10"
+        name=""
+        type="checkbox"
+      />
+      <span />
+    </label>
+    <label
+      className="square-checkbox__label square-checkbox__label--clickable"
+      htmlFor="checkbox-gid-10"
+      title={null}
+    >
+      test
+    </label>
+  </div>
+</Checkbox>
+`;

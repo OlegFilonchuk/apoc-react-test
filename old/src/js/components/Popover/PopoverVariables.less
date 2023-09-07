@@ -1,0 +1,107 @@
+@qtip-zindex: 15011;
+@qtip-min-width: 150px;
+
+@anchorWidth: 15px;
+@emptySpaceBetweenAnchorAndElement: 5px;
+
+@enabledBorderColor: #80bbd8;
+@enabledBgColor: #e5f6ff;
+
+@warningBorderColor: #fcae05;
+@warningBgColor: #f7f7ba;
+
+@errorBorderColor: #b94a48;
+@errorBgColor: #f1dcdc;
+
+@disabledBorderColor: #cccccc;
+@disabledBgColor: #f2f2f2;
+
+@qtip-blue-border-color: rgba(194, 225, 245, 0);
+@qtip-light-blue-border-color: rgba(136, 183, 213, 0);
+
+@qtip-yellow-border-color: rgba(252, 174, 5, 0);
+@qtip-light-yellow-border-color: rgba(247, 247, 186, 0);
+
+@qtip-red-border-color: rgba(185, 74, 72, 0);
+@qtip-light-red-border-color: rgba(241, 220, 220, 0);
+
+@default-transform-value: initial;
+
+@full-size: 100%;
+@full-size-plus-double-anchor-width: calc(@full-size + 2 * @anchorWidth);
+
+@negative-full-size: calc(-1 * @full-size);
+@negative-full-size-minus-double-anchor-width: calc(-1 * @full-size - 2 * @anchorWidth);
+
+@one-pixel-size: 1px;
+@negative-one-pixel: calc(-1 * @one-pixel-size);
+
+@half-size: calc(@full-size / 2);
+
+@initial-size: 0;
+
+@full-width-plus-anchor-width: calc(@full-size + @anchorWidth);
+@full-width-plus-anchor-width-plus-empty-space: calc(@full-size + @anchorWidth + @emptySpaceBetweenAnchorAndElement);
+
+@qtip-arrow-dark-border-width: calc(@anchorWidth + @one-pixel-size);
+@qtip-arrow-light-border-width: calc(@anchorWidth - @one-pixel-size);
+
+@rotate-by-90deg-clockwise: rotate(90deg);
+@flip-horizontaly: scaleX(-1);
+
+/* POSITION RIGHT-TOP */
+
+@qtip-pos-rt-left: inherit;
+
+/* TOP-RIGHT/TOP-LEFT MARGINS */
+
+@qtip-tr-tl-margin-top: 3px;
+@qtip-tr-tl-arrow-top: -25px;
+
+/* POSITION TOP-RIGHT */
+
+@qtip-pos-tr-transform: translate(@negative-full-size, 0);
+@qtip-pos-tr-arrow-left: calc(@full-size - 23px);
+
+/* POSITION TOP-LEFT */
+
+@qtip-pos-tl-arrow-left: -9px;
+@qtip-pos-tl-arrow-transform: @rotate-by-90deg-clockwise scaleY(-1);
+
+/* BOTTOM-RIGHT / BOTTOM-LEFT MARGIN */
+
+@qtip-br-bl-margin-top: -2px;
+
+/* POSITION BOTTOM-RIGHT */
+
+@qtip-pos-br-transform: translate(@negative-full-size, @negative-full-size);
+@qtip-pos-br-arrow-left: calc(@full-size - 31px);
+
+/* POSITION BOTTOM-LEFT */
+
+@qtip-pos-bl-transform: translate(0, @negative-full-size);
+@qtip-pos-bl-arrow-transform: rotate(0deg) @flip-horizontaly;
+
+/* POSITION TOP-MIDDLE */
+
+@qtip-tm-arrow-top: -2px;
+@qtip-pos-tm-arrow-left: calc(50% - 10px);
+@qtip-pos-tm-arrow-transform: rotate(225deg) scaleY(-1);
+
+/* POSITION RIGHT-MIDDLE */
+
+@qtip-pos-rm-lm-top: calc(-1 * 150%);
+@qtip-pos-rm-arrow-left: calc(100% - 22px);
+@qtip-pos-rm-arrow-transform: rotate(315deg) scaleY(-1);
+
+/* POSITION LEFT-MIDDLE */
+
+@qtip-pos-lm-arrow-transform: rotate(135deg) scaleY(-1);
+@qtip-lm-arrow-top: calc(50% - @anchorWidth);
+@qtip-pos-lm-arrow-left: -10px;
+
+/* POSITION BOTTOM-MIDDLE */
+
+@qtip-bm-arrow-top: calc(100% - 13px);
+@qtip-pos-bm-arrow-left: calc(50% - 20px);
+@qtip-pos-bm-arrow-transform: rotate(45deg) scaleY(-1);

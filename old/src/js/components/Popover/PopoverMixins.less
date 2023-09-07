@@ -1,0 +1,41 @@
+.position-qtip(@top, @left) {
+  left: @left;
+  top: @top;
+}
+
+.position-qtip(@top, @left, @transform) {
+  .position-qtip(@top, @left);
+
+  transform: @transform;
+}
+
+.qtip-arrow(@borderWidth, @marginTop, @marginLeft) {
+  border-width: @borderWidth;
+  margin-top: @marginTop;
+  margin-left: @marginLeft;
+}
+
+.qtip-arrow(@borderColor, @borderRightColor, @borderWidth, @borderTop, @marginTop) {
+  border-color: @borderColor;
+  border-right-color: @borderRightColor;
+  border-width: @borderWidth;
+  border-top: @borderTop;
+  margin-top: @marginTop;
+}
+
+.build-qtip-pos-styles(
+  @qtip-pos-top, @qtip-pos-left, @qtip-pos-transform,
+  @qtip-pos-arrow-top, @qtip-pos-arrow-left, @qtip-pos-arrow-transform,
+  @qtip-pos-arrow-border-width, @qtip-pos-arrow-margin-top, @qtip-pos-arrow-margin-left
+) {
+  .position-qtip(@qtip-pos-top, @qtip-pos-left, @qtip-pos-transform);
+
+  &::before,
+  &::after {
+    .position-qtip(@qtip-pos-arrow-top, @qtip-pos-arrow-left, @qtip-pos-arrow-transform);
+  }
+
+  &::after {
+    .qtip-arrow(@qtip-pos-arrow-border-width, @qtip-pos-arrow-margin-top, @qtip-pos-arrow-margin-left);
+  }
+}

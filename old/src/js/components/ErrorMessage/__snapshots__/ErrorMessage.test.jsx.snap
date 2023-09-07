@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage> should fire onClose event when clicking on close button 1`] = `
+<ErrorMessage
+  className=""
+  isVisible={false}
+/>
+`;

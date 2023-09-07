@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Placeholder /> should render <Placeholder /> 1`] = `
+<div
+  className="placeholder "
+>
+  <div
+    className="placeholder__content"
+  >
+    <div>
+       Some placeholder content 
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Placeholder /> should render <Placeholder /> with close icon 1`] = `
+<div
+  className="placeholder "
+>
+  <span
+    className="sc-icon-circle-remove-btn placeholder__close-icon"
+    onClick={[Function]}
+  />
+  <div
+    className="placeholder__content"
+  >
+    <div>
+       Some placeholder content 
+    </div>
+  </div>
+</div>
+`;

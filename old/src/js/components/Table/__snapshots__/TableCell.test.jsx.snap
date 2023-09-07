@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableCell /> should match snapshot  with passing \`width\` 1`] = `
+<td
+  className="sc-center-align"
+  style={
+    Object {
+      "maxWidth": "100px",
+      "width": "100px",
+    }
+  }
+>
+  Hello world
+</td>
+`;
+
+exports[`<TableCell /> should match snapshot  without passing \`width\` 1`] = `
+<td
+  className="sc-center-align"
+  style={Object {}}
+>
+  Hello world
+</td>
+`;

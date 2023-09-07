@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterPanelCollapse /> default behavior should render FilterPanelCollapse component 1`] = `
+<FilterPanelCollapse
+  OptionComponent={[Function]}
+  OptionsContainer={[Function]}
+  className=""
+  collapsed={false}
+  displayCounter={false}
+  id="Some Filter Id"
+  onChange={[Function]}
+  onCollapseStateChange={[Function]}
+  options={
+    Array [
+      Object {
+        "id": "test",
+        "label": "test",
+        "name": "test",
+      },
+    ]
+  }
+  title="Some Filter Title"
+>
+  <Collapse
+    className=""
+    customContent={null}
+    disableShouldComponentUpdate={false}
+    displayCounter={false}
+    iconPosition="left"
+    iconStyles={
+      Object {
+        "collapsed": "sc-icon-right-arrow",
+        "expanded": "sc-icon-down-arrow",
+      }
+    }
+    id=""
+    isClickDisabled={false}
+    isCollapsed={false}
+    isControlled={false}
+    isPanelButton={true}
+    onToggled={[Function]}
+    title="Some Filter Title"
+  >
+    <div
+      className="sc-panel collapse"
+    >
+      <CollapseHeader
+        className=""
+        countSelectedItems={null}
+        customContent={null}
+        data-test-element="CollapseHeader"
+        displayCounter={false}
+        iconPosition="left"
+        iconStyles={
+          Object {
+            "collapsed": "sc-icon-right-arrow",
+            "expanded": "sc-icon-down-arrow",
+          }
+        }
+        isClickDisabled={false}
+        isCollapsed={false}
+        isPanelButton={true}
+        onClick={[Function]}
+        title="Some Filter Title"
+      >
+        <div
+          className="sc-panel-heading"
+          data-test-element="CollapseHeader"
+          onClick={[Function]}
+          role="button"
+        >
+          <div
+            className="sc-panel-title"
+          >
+            <span
+              className="sc-collapse-icon sc-fonticon sc-icon-down-arrow"
+              onClick={null}
+            />
+            <h3>
+              Some Filter Title
+            </h3>
+          </div>
+        </div>
+      </CollapseHeader>
+      <div
+        className="panel__wrapper panel__wrapper--expanded"
+        style={
+          Object {
+            "maxHeight": -1,
+          }
+        }
+      >
+        <_class
+          offset={true}
+          onResize={[Function]}
+        >
+          <Measure
+            contentRect={
+              Object {
+                "bounds": Object {},
+                "client": Object {},
+                "entry": Object {},
+                "margin": Object {},
+                "offset": Object {},
+                "scroll": Object {},
+              }
+            }
+            measure={[Function]}
+            measureRef={[Function]}
+            offset={true}
+          >
+            <div
+              className="sc-panel-body"
+            >
+              <Multiselect
+                className=""
+                fullWidth={true}
+                labelPosition="left"
+                noVerticalLines={false}
+                onChange={[Function]}
+              >
+                <ul
+                  className="multiselect"
+                >
+                  <li
+                    className="multiselect__row"
+                    key=".$test"
+                  >
+                    <div
+                      className="li-content"
+                    >
+                      <Checkbox
+                        checked={false}
+                        className="filter__label--truncate"
+                        data-test-element="testCheckbox"
+                        disabled={false}
+                        fullWidth={true}
+                        isOnlyCheckboxClickable={false}
+                        key="test"
+                        label={
+                          <FilterLabel
+                            className=""
+                            label="test"
+                            labelCount={null}
+                            labelIcon=""
+                          />
+                        }
+                        labelPosition="left"
+                        name="test"
+                        onChange={[Function]}
+                        showHint={true}
+                        tooltip=""
+                      >
+                        <div
+                          className="square-checkbox filter__label--truncate square-checkbox--clickable square-checkbox-full-width"
+                        >
+                          <label
+                            className="square-checkbox__label square-checkbox__label--clickable"
+                            htmlFor="test"
+                            title=""
+                          >
+                            <FilterLabel
+                              className=""
+                              label="test"
+                              labelCount={null}
+                              labelIcon=""
+                            >
+                              <div
+                                className="label-item"
+                              >
+                                <div
+                                  className="label-item__name"
+                                >
+                                  test
+                                </div>
+                              </div>
+                            </FilterLabel>
+                          </label>
+                          <label
+                            className="square-checkbox-square"
+                          >
+                            <input
+                              checked={false}
+                              data-test-element="testCheckbox"
+                              disabled={false}
+                              id="test"
+                              name="test"
+                              onChange={[Function]}
+                              type="checkbox"
+                            />
+                            <span />
+                          </label>
+                        </div>
+                      </Checkbox>
+                    </div>
+                  </li>
+                </ul>
+              </Multiselect>
+            </div>
+          </Measure>
+        </_class>
+      </div>
+    </div>
+  </Collapse>
+</FilterPanelCollapse>
+`;

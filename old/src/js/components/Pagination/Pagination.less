@@ -1,0 +1,79 @@
+@import '~chameleon/less/variables.less';
+
+.pagination-wrapper {
+  padding: 0.5em 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 12px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .pagination-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .page {
+    display: inline;
+
+    &.page-break {
+      position: relative;
+      top: -4px;
+
+      &.arrow {
+        position: relative;
+        margin-right: 5px;
+        cursor: pointer;
+
+        &::after {
+          position: absolute;
+          content: '';
+          top: 10px;
+          left: 10px;
+          border-left: 3px solid transparent;
+          border-right: 3px solid transparent;
+          border-top: 4px solid #0290d7;
+        }
+      }
+    }
+
+    .page-label {
+      padding: 0 0.5em;
+      color: #0290d7;
+      cursor: pointer;
+    }
+
+    .current-page {
+      color: #555555;
+    }
+  }
+
+  .gotoPage__container {
+    font-weight: normal;
+
+    input {
+      display: inline-block;
+      width: 5em;
+      margin-left: @padding-base-horizontal;
+    }
+  }
+
+  /* uses chameleon icon fonts */
+  .sc-icon-caret-left:before {
+    content: '\61';
+  }
+
+  /* uses chameleon icon fonts */
+  .sc-icon-caret-right:before {
+    content: '\7b';
+  }
+
+  .total-label {
+    margin-right: 2em;
+    float: left;
+  }
+}

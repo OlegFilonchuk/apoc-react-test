@@ -1,0 +1,112 @@
+@import '~chameleon/less/variables.less';
+
+@width: 250px;
+@spacing: 10px;
+@height-sm: 340px;
+@height-lg: 500px;
+
+.tooltip-container.filter-popover {
+  .qtip {
+    &::after {
+      border-right-color: @tooltip-filter-bg;
+      border-top-color: @tooltip-filter-bg;
+    }
+
+    &::before {
+      border-right-color: @tooltip-filter-border;
+    }
+
+    background-color: @tooltip-filter-bg;
+    border-color: @tooltip-filter-border;
+
+    .qtip-content {
+      padding: @spacing;
+
+      .tooltip-body {
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        @media screen and (max-height: 768px) {
+          max-height: @height-sm;
+        }
+
+        @media screen and (min-height: 769px) {
+          max-height: @height-lg;
+        }
+
+        .sc-panel {
+          width: (@width - 2 * @spacing);
+          // flex
+          min-width: (@width - 2 * @spacing);
+          border: none;
+
+          .sc-panel-heading {
+            background-color: @primary;
+            padding: 0 @padding-sm-horizontal;
+
+            .sc-panel-title * {
+              color: white;
+              font: @font-size-base @font-base;
+            }
+          }
+
+          .sc-panel-body {
+            padding: 0;
+            background-color: transparent;
+
+            .multiselect {
+              li {
+                border-bottom-color: @panel-multiple-border;
+              }
+
+              label {
+                font: @font-size-base @font-base;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.filter-popover--disabled {
+    .icon-button {
+      color: @btn-disabled-color;
+      background-color: @btn-disabled-bg;
+      border-color: @btn-disabled-border;
+    }
+
+    .popover-title {
+      cursor: not-allowed;
+
+      .sc-btn {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  &.filter-popover--horizontal {
+    .qtip {
+      max-width: (4 * @width - @spacing);
+    }
+
+    .qtip-content .tooltip-body {
+      display: flex;
+      overflow-y: auto;
+      overflow-x: auto;
+
+      .sc-panel {
+        flex: 1;
+        margin: 0 0 0 @spacing;
+      }
+
+      > .sc-panel:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &.filter-popover--vertical .qtip-content .tooltip-body .sc-panel {
+    margin-bottom: 0;
+  }
+}

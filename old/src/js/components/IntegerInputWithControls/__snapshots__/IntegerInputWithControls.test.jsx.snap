@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntegerInputWithControls /> in snapshot tests should render Input with custom className 1`] = `
+<div
+  className="integer-input-with-controls some-class-name"
+>
+  <Label
+    className=""
+    htmlFor="Label"
+    required={false}
+  >
+    Label
+  </Label>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-plus"
+    />
+  </Button>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={true}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-solid-square"
+    />
+  </Button>
+  <Input
+    className=""
+    hasError={false}
+    id="Label"
+    label="Label"
+    lettersLeftCount={Infinity}
+    onChange={[Function]}
+    onInputRef={[Function]}
+    onKeyDown={[Function]}
+    onValueChange={[Function]}
+    submitOnEnter={false}
+    suffix=""
+    type="text"
+    value="0"
+    wrapperClassName="some-class-name"
+  />
+</div>
+`;
+
+exports[`<IntegerInputWithControls /> in snapshot tests should render Input with custom value 1`] = `
+<div
+  className="integer-input-with-controls"
+>
+  <Label
+    className=""
+    htmlFor="Label"
+    required={false}
+  >
+    Label
+  </Label>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-plus"
+    />
+  </Button>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-solid-square"
+    />
+  </Button>
+  <Input
+    className=""
+    hasError={false}
+    id="Label"
+    label="Label"
+    lettersLeftCount={Infinity}
+    onChange={[Function]}
+    onInputRef={[Function]}
+    onKeyDown={[Function]}
+    onValueChange={[Function]}
+    submitOnEnter={false}
+    suffix=""
+    type="text"
+    value="1"
+    wrapperClassName=""
+  />
+</div>
+`;
+
+exports[`<IntegerInputWithControls /> in snapshot tests should render correctly without props 1`] = `
+<div
+  className="integer-input-with-controls"
+>
+  <Label
+    className=""
+    htmlFor="Label"
+    required={false}
+  >
+    Label
+  </Label>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-plus"
+    />
+  </Button>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={true}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-solid-square"
+    />
+  </Button>
+  <Input
+    className=""
+    hasError={false}
+    id="Label"
+    label="Label"
+    lettersLeftCount={Infinity}
+    onChange={[Function]}
+    onInputRef={[Function]}
+    onKeyDown={[Function]}
+    onValueChange={[Function]}
+    submitOnEnter={false}
+    suffix=""
+    type="text"
+    value="0"
+    wrapperClassName=""
+  />
+</div>
+`;
+
+exports[`<IntegerInputWithControls /> in snapshot tests should render label with value passed as child node 1`] = `
+<div
+  className="integer-input-with-controls"
+>
+  <Label
+    className=""
+    htmlFor="Label"
+    required={false}
+  >
+    Very fancy label
+  </Label>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-plus"
+    />
+  </Button>
+  <Button
+    className="sc-btn-primary-outline icon-button"
+    data-test-element=""
+    disabled={true}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    title=""
+    type="button"
+    value={null}
+  >
+    <span
+      className="sc-icon-solid-square"
+    />
+  </Button>
+  <Input
+    className=""
+    hasError={false}
+    id="Label"
+    label="Label"
+    lettersLeftCount={Infinity}
+    onChange={[Function]}
+    onInputRef={[Function]}
+    onKeyDown={[Function]}
+    onValueChange={[Function]}
+    submitOnEnter={false}
+    suffix=""
+    type="text"
+    value="0"
+    wrapperClassName=""
+  />
+</div>
+`;

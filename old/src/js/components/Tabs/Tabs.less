@@ -1,0 +1,161 @@
+@disabled-text-color: #b2b2b2;
+
+.tabs-menu {
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-menu-item {
+  float: left;
+  margin-right: 20px;
+
+  a {
+    display: block;
+    color: #a9a9a9;
+  }
+
+  &:not(.is-active) a:hover,
+  &:not(.is-active)&:not(.is-disabled):hover .icon-tab,
+  &.is-active a,
+  &.is-active .icon-tab {
+    color: #3498db;
+  }
+}
+
+@tab-top-panel-height: 5px;
+.tabs {
+  display: block;
+
+  &-menu {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+
+    &-item {
+      position: relative;
+      display: inline-block;
+      min-width: 180px;
+      text-transform: capitalize;
+      cursor: pointer;
+      background-color: #f7f7f7;
+      -webkit-transition: background-color 0.3s;
+      -o-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+
+      &:before {
+        display: block;
+        height: @tab-top-panel-height;
+        content: ' ';
+        background-color: #b2b2b2;
+        -webkit-transition: background-color 0.3s;
+        -o-transition: background-color 0.3s;
+        transition: background-color 0.3s;
+      }
+
+      &:hover&:not(.is-disabled) {
+        &:before {
+          background-color: #005da4;
+          -webkit-transition: background-color 0.3s;
+          -o-transition: background-color 0.3s;
+          transition: background-color 0.3s;
+        }
+
+        & > a,
+        & > .icon-tab {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+
+      &:active&:not(.is-disabled) {
+        &:before {
+          background-color: #00448b;
+        }
+      }
+
+      &.is-active {
+        cursor: default;
+        background-color: #ffffff;
+        margin-bottom: -1px;
+
+        &:before {
+          background-color: #005da4;
+        }
+
+        & > a {
+          border-bottom-color: transparent;
+        }
+      }
+
+      &.is-disabled {
+        cursor: not-allowed;
+        color: @disabled-text-color;
+
+        &:not(.is-active) a {
+          color: @disabled-text-color;
+        }
+      }
+
+      & > a {
+        border: 0;
+        position: relative;
+        padding: 5px 10px;
+        font-size: 13px;
+        height: calc(100% - @tab-top-panel-height);
+
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-decoration: initial;
+
+        border-right: 1px solid #ccc;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        .optional-tab {
+          margin-right: 25px;
+          padding-left: 5px;
+          font-style: italic;
+          color: #b2b2b2;
+        }
+      }
+
+      &.tabs-menu-item-with-icon {
+        & > a {
+          padding-left: 30px;
+        }
+      }
+
+      & > .icon-tab {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+
+  .tab-panel {
+    border: 1px solid #ccc;
+    border-top: 0;
+
+    overflow: auto; //child elements effects margin of parent: http://stackoverflow.com/questions/1762539/margin-on-child-element-moves-parent-element
+    padding: 10px 50px;
+    background-color: white;
+  }
+}
+
+.button {
+  &--state-success {
+    color: white;
+  }
+
+  &.button--state-success {
+    color: red;
+  }
+}

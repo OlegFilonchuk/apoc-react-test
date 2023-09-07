@@ -1,0 +1,27 @@
+.fileInput {
+  &__wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &__disabled {
+      cursor: not-allowed;
+    }
+
+    .fileInput__button {
+      margin-left: 0;
+    }
+
+    .fileInput__fileInput {
+      display: none;
+    }
+
+    .fileInput__button {
+      margin-right: 10px;
+    }
+  }
+}

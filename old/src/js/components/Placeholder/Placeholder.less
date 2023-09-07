@@ -1,0 +1,37 @@
+@border-color: #cdcdcd;
+@background-color: #ebebeb;
+@icon-color: #0093d4;
+@icon-background: #ffffff;
+
+.placeholder {
+  position: relative;
+
+  border: 1px solid @border-color;
+
+  &__content {
+    padding: 10px;
+    background: @background-color;
+  }
+  &__close-icon {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    &:before {
+      border-radius: 50%;
+      background: @icon-background;
+
+      color: @icon-color;
+
+      &:hover {
+        background: @icon-color;
+
+        color: @icon-background;
+      }
+    }
+  }
+}

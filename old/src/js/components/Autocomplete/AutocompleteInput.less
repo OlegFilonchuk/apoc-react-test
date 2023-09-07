@@ -1,0 +1,63 @@
+@import '~chameleon/less/variables.less';
+
+@gray: #ccc;
+@button-square-size: 31px;
+
+@disabled-background: #eee;
+@disabled-text: #b2b2b2;
+@disabled-border: #b2b2b2;
+
+.autocomplete-input {
+  &__wrapper {
+    display: inline-block;
+    width: calc(100% - @button-square-size);
+
+    .input-field__char-limit-counter {
+      height: calc(100% - 8px);
+      top: 4px;
+      right: 4px;
+      border: 1px solid @gray;
+    }
+
+    input {
+      border-right: 0;
+    }
+  }
+
+  &__button {
+    width: @button-square-size;
+    height: @button-square-size;
+    border: 1px solid @primary;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    span {
+      margin-top: 3px;
+      color: @primary;
+    }
+  }
+
+  &.error &__button {
+    border: 1px solid @error;
+
+    span {
+      color: @error;
+    }
+  }
+
+  &.disabled &__button {
+    background: @disabled-background;
+    border-color: @disabled-border;
+    cursor: not-allowed;
+
+    span {
+      color: @disabled-text;
+    }
+  }
+}

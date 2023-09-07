@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchDropdown> should render <SearchDropdown> 1`] = `
+<SearchDropdown
+  allowDynamicOptions={false}
+  className=""
+  name="TestDropdown"
+  onDropdownChange={[Function]}
+  onSearchChange={[Function]}
+  placeholder="Search for country"
+  results={
+    Array [
+      Object {
+        "label": "first",
+        "value": "fr",
+      },
+      Object {
+        "label": "second",
+        "value": "sc",
+      },
+      Object {
+        "label": "third",
+        "value": "th",
+      },
+      Object {
+        "label": "second first",
+        "value": "sf",
+      },
+      Object {
+        "label": "third again",
+        "value": "ta",
+      },
+    ]
+  }
+  searchIcon={
+    <i
+      className="sc-icon-magnifier search-dropdown--icon"
+    />
+  }
+  searchValue=""
+  useSubmitOnEnter={false}
+>
+  <div
+    className="search-dropdown"
+  >
+    <Dropdown
+      button={
+        <DropdownInput
+          className="sc-btn-default search-box"
+          inputType="input"
+          isExpanded={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Search for country"
+          value=""
+        />
+      }
+      className=""
+      emptyMessage="No Filtered Data"
+      filterable={false}
+      fullWidth={false}
+      name="TestDropdown"
+      onChange={[Function]}
+      recomputeUseButton={false}
+      useSubmitOnEnter={false}
+      withSuffix={Object {}}
+    >
+      <div
+        className="sc-dropdown"
+      >
+        <DropdownInput
+          className="sc-btn-default search-box"
+          inputType="input"
+          isExpanded={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Search for country"
+          value=""
+        >
+          <input
+            className="sc-btn sc-btn-default search-box"
+            onChange={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search for country"
+            type="input"
+            value=""
+          />
+        </DropdownInput>
+        <ul
+          aria-labelledby={undefined}
+          className="sc-dropdown-menus"
+        >
+          <DropdownOption
+            className=""
+            disabled={false}
+            icon=""
+            key=".$fr-first"
+            label="first"
+            name="TestDropdown"
+            onClick={[Function]}
+            selected={true}
+            showPopupOnHover={false}
+            value="fr"
+          >
+            <li
+              className="dropdown-option "
+            >
+              <label
+                className="sc-focus"
+                title={undefined}
+              >
+                <span
+                  className=" icon"
+                />
+                first
+                <input
+                  data-test-element="option-fr"
+                  defaultChecked={true}
+                  disabled={false}
+                  name="TestDropdown"
+                  onClick={[Function]}
+                  readOnly="readOnly"
+                  role="menu"
+                  type="radio"
+                  value="fr"
+                />
+              </label>
+            </li>
+          </DropdownOption>
+          <DropdownOption
+            className=""
+            disabled={false}
+            icon=""
+            key=".$sc-second"
+            label="second"
+            name="TestDropdown"
+            onClick={[Function]}
+            selected={false}
+            showPopupOnHover={false}
+            value="sc"
+          >
+            <li
+              className="dropdown-option "
+            >
+              <label
+                className=""
+                title={undefined}
+              >
+                <span
+                  className=" icon"
+                />
+                second
+                <input
+                  data-test-element="option-sc"
+                  defaultChecked={false}
+                  disabled={false}
+                  name="TestDropdown"
+                  onClick={[Function]}
+                  readOnly="readOnly"
+                  role="menu"
+                  type="radio"
+                  value="sc"
+                />
+              </label>
+            </li>
+          </DropdownOption>
+          <DropdownOption
+            className=""
+            disabled={false}
+            icon=""
+            key=".$th-third"
+            label="third"
+            name="TestDropdown"
+            onClick={[Function]}
+            selected={false}
+            showPopupOnHover={false}
+            value="th"
+          >
+            <li
+              className="dropdown-option "
+            >
+              <label
+                className=""
+                title={undefined}
+              >
+                <span
+                  className=" icon"
+                />
+                third
+                <input
+                  data-test-element="option-th"
+                  defaultChecked={false}
+                  disabled={false}
+                  name="TestDropdown"
+                  onClick={[Function]}
+                  readOnly="readOnly"
+                  role="menu"
+                  type="radio"
+                  value="th"
+                />
+              </label>
+            </li>
+          </DropdownOption>
+          <DropdownOption
+            className=""
+            disabled={false}
+            icon=""
+            key=".$sf-second first"
+            label="second first"
+            name="TestDropdown"
+            onClick={[Function]}
+            selected={false}
+            showPopupOnHover={false}
+            value="sf"
+          >
+            <li
+              className="dropdown-option "
+            >
+              <label
+                className=""
+                title={undefined}
+              >
+                <span
+                  className=" icon"
+                />
+                second first
+                <input
+                  data-test-element="option-sf"
+                  defaultChecked={false}
+                  disabled={false}
+                  name="TestDropdown"
+                  onClick={[Function]}
+                  readOnly="readOnly"
+                  role="menu"
+                  type="radio"
+                  value="sf"
+                />
+              </label>
+            </li>
+          </DropdownOption>
+          <DropdownOption
+            className=""
+            disabled={false}
+            icon=""
+            key=".$ta-third again"
+            label="third again"
+            name="TestDropdown"
+            onClick={[Function]}
+            selected={false}
+            showPopupOnHover={false}
+            value="ta"
+          >
+            <li
+              className="dropdown-option "
+            >
+              <label
+                className=""
+                title={undefined}
+              >
+                <span
+                  className=" icon"
+                />
+                third again
+                <input
+                  data-test-element="option-ta"
+                  defaultChecked={false}
+                  disabled={false}
+                  name="TestDropdown"
+                  onClick={[Function]}
+                  readOnly="readOnly"
+                  role="menu"
+                  type="radio"
+                  value="ta"
+                />
+              </label>
+            </li>
+          </DropdownOption>
+        </ul>
+      </div>
+    </Dropdown>
+    <i
+      className="sc-icon-magnifier search-dropdown--icon"
+    />
+  </div>
+</SearchDropdown>
+`;
+
+exports[`<SearchDropdown> should render <SearchDropdown> with empty options 1`] = `
+<SearchDropdown
+  allowDynamicOptions={false}
+  className=""
+  name="TestDropdown"
+  onDropdownChange={[Function]}
+  onSearchChange={[Function]}
+  placeholder="Search for country"
+  results={Array []}
+  searchIcon={
+    <i
+      className="sc-icon-magnifier search-dropdown--icon"
+    />
+  }
+  searchValue=""
+  useSubmitOnEnter={false}
+>
+  <div
+    className="search-dropdown"
+  >
+    <Dropdown
+      button={
+        <DropdownInput
+          className="sc-btn-default search-box"
+          inputType="input"
+          isExpanded={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Search for country"
+          value=""
+        />
+      }
+      className=""
+      emptyMessage="No Filtered Data"
+      filterable={false}
+      fullWidth={false}
+      name="TestDropdown"
+      onChange={[Function]}
+      recomputeUseButton={false}
+      useSubmitOnEnter={false}
+      withSuffix={Object {}}
+    >
+      <div
+        className="sc-dropdown"
+      >
+        <DropdownInput
+          className="sc-btn-default search-box"
+          inputType="input"
+          isExpanded={false}
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Search for country"
+          value=""
+        >
+          <input
+            className="sc-btn sc-btn-default search-box"
+            onChange={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Search for country"
+            type="input"
+            value=""
+          />
+        </DropdownInput>
+        <ul
+          aria-labelledby={undefined}
+          className="sc-dropdown-menus"
+        />
+      </div>
+    </Dropdown>
+    <i
+      className="sc-icon-magnifier search-dropdown--icon"
+    />
+  </div>
+</SearchDropdown>
+`;

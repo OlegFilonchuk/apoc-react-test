@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommaSeparatedInput Should match snapshot 1`] = `
+<div
+  className="input-wrapper"
+>
+  <Input
+    className=""
+    hasError={false}
+    lettersLeftCount={Infinity}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onInputRef={[Function]}
+    onKeyDown={[Function]}
+    submitOnEnter={false}
+    suffix=""
+    type="text"
+    value="200, 600, 9000"
+  />
+</div>
+`;

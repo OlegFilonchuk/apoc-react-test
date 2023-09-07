@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createButtonWithIcon with default set of props matches snapshot 1`] = `
+<ButtonWithIcon
+  adjustHeight={24}
+  adjustLineHeight={undefined}
+  className=""
+  iconClassName="sc-some-icon-class"
+  onClick={[Function]}
+>
+  <Button
+    adjustHeight={24}
+    className="button-with-icon"
+    data-test-element=""
+    disabled={false}
+    id=""
+    isLinkView={false}
+    isSelected={false}
+    name=""
+    onClick={[Function]}
+    style={
+      Object {
+        "lineHeight": undefined,
+      }
+    }
+    title=""
+    type="button"
+    value={null}
+  >
+    <button
+      className="sc-btn button-with-icon"
+      data-test-element="undefined"
+      disabled={false}
+      id=""
+      name=""
+      onClick={[Function]}
+      title=""
+      type="button"
+    >
+      <i
+        className="button-with-icon__icon sc-some-icon-class"
+        style={
+          Object {
+            "height": undefined,
+          }
+        }
+      />
+      <span
+        className="button-with-icon__text"
+      >
+        A text for button
+      </span>
+    </button>
+  </Button>
+</ButtonWithIcon>
+`;

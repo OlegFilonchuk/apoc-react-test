@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup /> should render ButtonGroup component 1`] = `
+<ButtonGroup
+  className=""
+>
+  <div
+    className="panel-group"
+  >
+    <div
+      className="sc-btn-switch"
+    >
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={false}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="0"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={
+          Object {
+            "id": "test",
+          }
+        }
+      >
+        <button
+          className="sc-btn sc-btn-default"
+          data-test-element="undefined"
+          disabled={false}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 1
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={false}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="1"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value="id"
+      >
+        <button
+          className="sc-btn sc-btn-default"
+          data-test-element="undefined-Id"
+          disabled={false}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 2
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={true}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="2"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={null}
+      >
+        <button
+          className="sc-btn sc-btn-default sc-disabled"
+          data-test-element="undefined"
+          disabled={true}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 3
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={true}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="3"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={null}
+      >
+        <button
+          className="sc-btn sc-btn-default sc-disabled"
+          data-test-element="undefined"
+          disabled={true}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 4
+        </button>
+      </Button>
+    </div>
+  </div>
+</ButtonGroup>
+`;
+
+exports[`<ButtonGroup /> should render disabled button if disabled is passed 1`] = `
+<ButtonGroup
+  className=""
+>
+  <div
+    className="panel-group"
+  >
+    <div
+      className="sc-btn-switch"
+    >
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={false}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="0"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={
+          Object {
+            "id": "test",
+          }
+        }
+      >
+        <button
+          className="sc-btn sc-btn-default"
+          data-test-element="undefined"
+          disabled={false}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 1
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={false}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="1"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value="id"
+      >
+        <button
+          className="sc-btn sc-btn-default"
+          data-test-element="undefined-Id"
+          disabled={false}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 2
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={true}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="2"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={null}
+      >
+        <button
+          className="sc-btn sc-btn-default sc-disabled"
+          data-test-element="undefined"
+          disabled={true}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 3
+        </button>
+      </Button>
+      <Button
+        className="sc-btn-default"
+        data-test-element=""
+        disabled={true}
+        id=""
+        isLinkView={false}
+        isSelected={false}
+        key="3"
+        name=""
+        onClick={[Function]}
+        title=""
+        type="button"
+        value={null}
+      >
+        <button
+          className="sc-btn sc-btn-default sc-disabled"
+          data-test-element="undefined"
+          disabled={true}
+          id=""
+          name=""
+          onClick={[Function]}
+          title=""
+          type="button"
+        >
+          Option 4
+        </button>
+      </Button>
+    </div>
+  </div>
+</ButtonGroup>
+`;

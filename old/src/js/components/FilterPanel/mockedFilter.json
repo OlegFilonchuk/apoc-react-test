@@ -1,0 +1,21 @@
+{
+  "title": "Some Filter Title",
+  "id": "Some Filter Id",
+  "data": [
+    {
+      "label": "app:app",
+      "name": "Apps",
+      "disabled" : false
+    },
+    {
+      "label": "host",
+      "name": "DUTs",
+      "disabled" : false
+    },
+    {
+      "label": "monitor",
+      "name": "Monitors",
+      "disabled" : true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableHeadCell /> should match snapshot  with passing \`width\` 1`] = `
+<TableHeadCell
+  className=""
+  dateContent={false}
+  iconOrGraphicalContent={false}
+  numericContent={false}
+  onSort={[Function]}
+  sortOrder=""
+  sortable={false}
+  tableProps={
+    Object {
+      "getColumnContentTypes": [Function],
+      "registerColumn": [Function],
+      "unregisterColumn": [Function],
+    }
+  }
+  textContent={false}
+  width="100px"
+>
+  <th
+    className=""
+    onClick={[Function]}
+    style={
+      Object {
+        "maxWidth": "100px",
+        "width": "100px",
+      }
+    }
+  >
+    Title
+  </th>
+</TableHeadCell>
+`;
+
+exports[`<TableHeadCell /> should match snapshot  with sorting 1`] = `
+<TableHeadCell
+  className=""
+  dateContent={false}
+  iconOrGraphicalContent={false}
+  numericContent={false}
+  onSort={[Function]}
+  sortOrder=""
+  sortable={true}
+  tableProps={
+    Object {
+      "getColumnContentTypes": [Function],
+      "registerColumn": [Function],
+      "unregisterColumn": [Function],
+    }
+  }
+  textContent={false}
+  width=""
+>
+  <th
+    className="table-head-cell-with-sorting"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="th-sorting-icon sc-icon-dropdown-arrow"
+    />
+    Title
+  </th>
+</TableHeadCell>
+`;
+
+exports[`<TableHeadCell /> should match snapshot  without passing \`width\` 1`] = `
+<TableHeadCell
+  className=""
+  dateContent={false}
+  iconOrGraphicalContent={false}
+  numericContent={false}
+  onSort={[Function]}
+  sortOrder=""
+  sortable={false}
+  tableProps={
+    Object {
+      "getColumnContentTypes": [Function],
+      "registerColumn": [Function],
+      "unregisterColumn": [Function],
+    }
+  }
+  textContent={false}
+  width=""
+>
+  <th
+    className=""
+    onClick={[Function]}
+    style={Object {}}
+  >
+    Title
+  </th>
+</TableHeadCell>
+`;

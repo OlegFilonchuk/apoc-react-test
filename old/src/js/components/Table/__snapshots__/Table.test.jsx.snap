@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should match snapshot with data 1`] = `
+<table
+  className="sc-table table-component"
+>
+  <TableHeadRow
+    className=""
+    key=".0"
+  >
+    <th>
+      Title 1
+    </th>
+    <th>
+      Title 2
+    </th>
+    <th>
+      Title 3
+    </th>
+  </TableHeadRow>
+  <tbody
+    key=".1"
+  >
+    <tr
+      className=""
+      key=".0"
+    >
+      <td>
+        Content 1
+      </td>
+      <td>
+        Content 2
+      </td>
+      <td>
+        Content 3
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<Table /> should match snapshot without data 1`] = `
+<table
+  className="sc-table table-component"
+>
+  <TableHeadRow
+    className=""
+    key=".0"
+  >
+    <th>
+      Title 1
+    </th>
+    <th>
+      Title 2
+    </th>
+    <th>
+      Title 3
+    </th>
+  </TableHeadRow>
+  <tfoot
+    className="empty-table-container"
+  >
+    <tr>
+      <td
+        colSpan={3}
+      >
+        <div />
+      </td>
+    </tr>
+  </tfoot>
+</table>
+`;

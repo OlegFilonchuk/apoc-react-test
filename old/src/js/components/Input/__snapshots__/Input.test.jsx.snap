@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> snapshot tests should render Input with custom className 1`] = `
+<input
+  className="sc-form-ele input-field Some class name"
+  onKeyDown={[Function]}
+  type="text"
+/>
+`;
+
+exports[`<Input /> snapshot tests should render Input with error 1`] = `
+<input
+  className="sc-form-ele input-field error"
+  onKeyDown={[Function]}
+  type="text"
+/>
+`;
+
+exports[`<Input /> snapshot tests should render default Input 1`] = `
+<input
+  className="sc-form-ele input-field"
+  onKeyDown={[Function]}
+  type="text"
+/>
+`;

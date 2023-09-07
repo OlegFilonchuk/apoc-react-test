@@ -1,0 +1,79 @@
+/* Styles go here */
+@border: #cccccc;
+@primary: #0290d7;
+@light-background: #efefef;
+@light-border: #dbdbdb;
+@paragraph: #555555;
+@white: #fff;
+@slider-height: 110px;
+
+.slider {
+  display: inline-block;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  min-width: 30px;
+
+  border-color: @light-border;
+  background-color: @light-background;
+
+  text-align: center;
+
+  &__scale {
+    position: relative;
+    height: @slider-height;
+    width: 7px;
+    display: inline-block;
+
+    background: @white;
+
+    &--border {
+      border: 1px solid @border;
+      border-radius: 10px;
+      height: @slider-height;
+      width: 6px;
+
+      z-index: 2;
+    }
+    &__label {
+      position: absolute;
+    }
+  }
+
+  &__thumb {
+    position: absolute;
+    left: -4px;
+    top: 2px;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid @white;
+    box-shadow: 0 0 0 1px rgb(2, 144, 215);
+
+    background: @primary;
+
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  &__max-label {
+    padding: 5px 0;
+    font-size: 10px;
+  }
+
+  &--progress {
+    position: absolute;
+    bottom: -1px;
+
+    width: 7px;
+    height: 10px;
+    border-radius: 10px;
+
+    background-color: @primary;
+    z-index: 1;
+  }
+}
+
+.volume-handler--dragging {
+  cursor: pointer !important;
+}
