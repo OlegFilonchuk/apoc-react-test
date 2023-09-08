@@ -1,11 +1,11 @@
 {
-  "name": "apoc-react",
-  "version": "3.0.0",
+  "name": "@olegfilonchuk/apoc-react-test",
+  "version": "3.0.1",
   "description": "Application Security React Web Components",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/OlegFilonchuk"
+    "registry": "https://npm.pkg.github.com/olegfilonchuk"
   },
   "files": [
     "dist"
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mudynamics/apoc-react.git"
+    "url": "git+https://github.com/olegfilonchuk/apoc-react-test.git"
   },
   "author": "Spirent Communications",
   "license": "Spirent Communications",
   "bugs": {
-    "url": "https://github.com/mudynamics/apoc-react/issues"
+    "url": "https://github.com/olegfilonchuk/apoc-react-test/issues"
   },
-  "homepage": "https://github.com/mudynamics/apoc-react#readme",
+  "homepage": "https://github.com/olegfilonchuk/apoc-react-test#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-node-resolve": "^15.2.1",
